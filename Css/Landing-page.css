@@ -157,7 +157,7 @@ a{
 }
 
 
-/* .....................................................768px responsive..........  */
+/* ------------------------------------------------------------------768px responsive-----Header-----*/
 @media all and (max-width: 768px) {
     .header-bar{
         position: fixed;
@@ -232,7 +232,7 @@ a{
         padding: 10px 30px;
     }   
 }
-/* .....................................................640px responsive..........  */
+/* ------------------------------------------------------------------640px responsive-----Header-----*/
 @media all and (max-width: 640px) {
     .header-bar{
         position: fixed;
@@ -308,7 +308,7 @@ a{
 }
 
 
-/* .....................................................480px responsive..........  */
+/* ------------------------------------------------------------------480px responsive-----Header-----*/
 
 @media all and (max-width: 480px) {
     .header-bar{
@@ -382,171 +382,67 @@ a{
         padding: 3px 8px;
     }   
 }
-/* .....................................................360px responsive..........  */
+/* ------------------------------------------------------------------360px responsive-----Header-----*/
+
 @media all and (max-width: 360px) {
     .header-bar{
         position: fixed;
         z-index: 2;
         top: 0;
+        left: 0;
         width: 100%;
-        margin: 0 auto;
+        height: auto;
+        margin:  auto;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        justify-content: space-between;
         background-color: #fff;
-        padding: 0 auto;
+        padding: 0 0 10px 0;
     }
     .logo{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 0 auto;
+        margin: 10px  auto;
         width: 90%;
     }
     .header-logo{
-        width: 17%;
-        margin: 0 auto;
-
-    }
-    .navbar{
         width: 70%;
-        margin: auto auto;;
-    }
-    .navbar ul{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
         margin: auto;
     }
-    .navbar ul li{
-        margin:auto;
-        width: 20%;
-        list-style: none;
-        text-decoration: none;
-        text-align: center;
-        font-size: 12px;
-        font-weight: 300;
-    }
-    .navbar ul li a{
-        font-size: 7px;
-        color: #000;
-        font-weight: 400;
-        position: relative;
-    }
-    .navbar ul li a::after{
-        content: '';
-        width: 0;
-        height: 3px;
-        background: #000;
-        position: absolute;
-        left: 0;
-        bottom: -6px;
-        transition:0.5s;
-    }
-    .navbar ul li a:hover::after{
-        width: 100%;
-        
-    }
-    .signing{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        font-weight: bold;
-        width: 25%;
-    }
-    .signing a{
-        color: #000;
-        font-size: 7px;
-        font-weight: 600;
-    }
-    .sign-in{
-        margin: auto;
-    }
-    
-    .sign-up{
-        margin: 0 8px;
-        border: #000 1px solid;
-        border-radius: 5px;
-        padding: 1px 8px;
-    }   
-}
-
-
-/* .....................................................320px responsive..........  */
-@media all and (max-width: 320px) {
-    .header-bar{
-        position: fixed;
-        z-index: 2;
-        top: 0;
-        width: 100%;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        background-color: #fff;
-        padding: 0 auto;
-    }
-    .logo{
+    .navbar{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 0 auto;
-        width: 90%;
-    }
-    .header-logo{
-        width: 17%;
-        margin: 0 auto;
-
-    }
-    .navbar{
-        width: 100%;
-        margin: auto auto;;
+        margin: auto;
     }
     .navbar ul{
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        margin: auto;
+        justify-content: center;
+        margin:auto;
+        padding: 0;
     }
     .navbar ul li{
-        margin:auto;
-        width: 20%;
-        list-style: none;
-        text-decoration: none;
-        text-align: center;
-        font-size: 12px;
-        font-weight: 300;
+        margin: 0;
     }
     .navbar ul li a{
+        margin:auto 10px;
         font-size: 10px;
-        color: #000;
-        font-weight: 400;
-        position: relative;
-    }
-    .navbar ul li a::after{
-        content: '';
-        width: 0;
-        height: 3px;
-        background: #000;
-        position: absolute;
-        left: 0;
-        bottom: -6px;
-        transition:0.5s;
-    }
-    .navbar ul li a:hover::after{
-        width: 100%;
-        
     }
     .signing{
         display: none;
         align-items: center;
         justify-content: space-between;
         font-weight: bold;
-        width: 25%;
+        width: 30%;
+        margin: auto;
+        padding: 0;
     }
     .signing a{
         color: #000;
-        font-size: 7px;
+        font-size: 10px;
         font-weight: 600;
     }
     .sign-in{
@@ -557,6 +453,80 @@ a{
         margin: 0 8px;
         border: #000 1px solid;
         border-radius: 5px;
-        padding: 1px 8px;
+        padding: 3px 8px;
+    }   
+}
+/* ------------------------------------------------------------------320px responsive-----Header-----*/
+
+@media all and (max-width: 320px) {
+    .header-bar{
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        margin:  auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        padding: 0 0 10px 0;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px  auto;
+        width: 90%;
+    }
+    .header-logo{
+        width: 70%;
+        margin: auto;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .navbar ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin:auto;
+        padding: 0;
+    }
+    .navbar ul li{
+        margin: 0;
+    }
+    .navbar ul li a{
+        margin:auto 10px;
+        font-size: 10px;
+    }
+    .signing{
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold;
+        width: 30%;
+        margin: auto;
+        padding: 0;
+    }
+    .signing a{
+        color: #000;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .sign-in{
+        margin: auto;
+    }
+    
+    .sign-up{
+        margin: 0 8px;
+        border: #000 1px solid;
+        border-radius: 5px;
+        padding: 3px 8px;
     }   
 }
