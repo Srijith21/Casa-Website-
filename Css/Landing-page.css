@@ -2915,8 +2915,7 @@ h2.Landinghead{
     bottom: 35px;
 }
 
-
-/* .....................................................980px responsive..........  */
+/* .....................................................980px responsive -- LATEST PROJECTS --..........  */
 @media all and (max-width: 980px) {
     .latest-projects{
         background-color: #FCDA69;
@@ -2980,9 +2979,7 @@ h2.Landinghead{
         bottom: 35px;
     }
 }
-
-
-/* .....................................................768px responsive..........  */
+/* .....................................................768px responsive -- LATEST PROJECTS --..........  */
 @media all and (max-width: 768px) {
     .latest-projects{
         background-color: #FCDA69;
@@ -3050,7 +3047,7 @@ h2.Landinghead{
     }
 }
 
-/* .....................................................640px responsive..........  */
+/* .....................................................640px responsive -- LATEST PROJECTS --..........  */
 @media all and (max-width: 640px) {
     .latest-projects{
         background-color: #FCDA69;
@@ -3116,7 +3113,7 @@ h2.Landinghead{
         bottom: 35px;
     }
 }
-/* .....................................................480px responsive..........  */
+/* .....................................................480px responsive -- LATEST PROJECTS --..........  */
 @media all and (max-width: 480px) {
     .latest-projects{
         background-color: #FCDA69;
@@ -3184,7 +3181,7 @@ h2.Landinghead{
 }
 
 
-/* .....................................................360px responsive..........  */
+/* .....................................................360px responsive -- LATEST PROJECTS --..........  */
 @media all and (max-width: 360px) {
     .latest-projects{
         background-color: #FCDA69;
@@ -3250,3 +3247,710 @@ h2.Landinghead{
         bottom: 35px;
     }
 }
+
+/* <!-------------------------------------------------------------------------------------------- KIND WORDS --> */
+.testimonials{
+    height: 100vh;
+}
+.testimonials-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    height: 200px;
+}
+.testimonials-top-left{
+    width: 36%;
+    position: relative;
+}
+.testimonials-top-left h3{
+    font-size: 80px;
+    width: 80%;
+    margin: 0;
+}
+.keyword.testimonials{
+    position: absolute;
+    font-size: 15px;
+    top: -35px;
+    left: 130px;
+
+}
+.testimonials-top-middle{
+    width: 35%;
+}
+
+.landingtext.kindword{
+    font-size: 15px;
+    color: #556655;
+    line-height: 2rem;
+}
+.testimonials-top-right{
+    width: 17%;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.downarrowbox{
+    border-radius: 50%;
+    border: #556655 1px solid;
+    padding: 10px;
+}
+.downarrow{
+    display: block;
+    width: 70%;
+    height: 50px;
+    margin: auto;
+    
+}
+.arrow-box{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    border: 2.5px solid rgb(29, 2, 2);
+    padding: 10px;
+    height: 50px;
+    border-radius: 35px;
+}
+.arrow-box span{
+    transform: rotate(-25deg);
+    font-size: 20px;
+    margin: 8px 0px;
+}
+.BlackArrow{
+    display: block;
+    width: 35%;
+    height: 50px;
+    margin: auto;
+}
+.vertical-line{
+    font-size: 30px;
+    margin: 15px;
+    color: #556655;
+}
+.testimonials-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px auto;
+}
+.testimonials-bottom-clientImg{
+    width: 20%;
+    margin: 0 auto;
+}
+.clientImg{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+.testimonials-bottom-clientDescription{
+    width: 40%;
+    border-top: 3px solid #556655;
+    border-bottom: 3px solid #556655;
+    padding: 30px 10px;
+}
+.testimonials-bottom-clientDescription p{
+    font-size: 18px;
+    color: #556655;
+    line-height: 2rem;
+    margin-bottom: 30px;
+}
+.testimonials-bottom-clientDescription p span{
+    font-size: 18px;
+    font-weight: 700;
+}
+.testimonials-bottom-clientDescription h5{
+    font-size: 20px;
+    margin: 20px auto;
+}
+.testimonials-bottom-clientDescription h6{
+    font-size: 15px;
+    margin: 10px auto;
+    color: #515851;
+    font-weight: 600;
+}
+/* .....................................................1280px responsive..........  */
+
+@media all and (max-width: 1280px){
+    .testimonials{
+        height: 100vh;
+    }
+    .testimonials-top{
+        display: flex;
+        justify-content: space-between;
+        margin: 50px auto;
+        height: 200px;
+    }
+    .testimonials-top-left{
+        width: 36%;
+        position: relative;
+    }
+    .testimonials-top-left h3{
+        font-size: 80px;
+        width: 100%;
+        margin: 0;
+    }
+    .keyword.testimonials{
+        position: absolute;
+        font-size: 15px;
+        top: -35px;
+        left: 130px;
+    
+    }
+    .testimonials-top-middle{
+        width: 35%;
+    }
+    
+    .landingtext.kindword{
+        font-size: 15px;
+        color: #556655;
+        line-height: 2rem;
+    }
+    .testimonials-top-right{
+        width: 20%;
+        display:flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .downarrowbox{
+        border-radius: 50%;
+        border: #556655 1px solid;
+        padding: 10px;
+    }
+    .downarrow{
+        display: block;
+        width: 70%;
+        height: 50px;
+        margin: auto;
+        
+    }
+    .arrow-box{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        border: 2.5px solid rgb(29, 2, 2);
+        padding: 10px;
+        height: 50px;
+        border-radius: 35px;
+    }
+    .arrow-box span{
+        transform: rotate(-25deg);
+        font-size: 20px;
+        margin: 8px 0px;
+    }
+    .BlackArrow{
+        display: block;
+        width: 35%;
+        height: 50px;
+        margin: auto;
+    }
+    .vertical-line{
+        font-size: 30px;
+        margin: 15px;
+        color: #556655;
+    }
+    .testimonials-bottom{
+        display: flex;
+        justify-content: space-between;
+        margin: 80px auto;
+    }
+    .testimonials-bottom-clientImg{
+        width: 20%;
+        margin: 0 auto;
+    }
+    .clientImg{
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+    }
+    .testimonials-bottom-clientDescription{
+        width: 40%;
+        border-top: 3px solid #556655;
+        border-bottom: 3px solid #556655;
+        padding: 30px 10px;
+    }
+    .testimonials-bottom-clientDescription p{
+        font-size: 18px;
+        color: #556655;
+        line-height: 2rem;
+        margin-bottom: 30px;
+    }
+    .testimonials-bottom-clientDescription p span{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .testimonials-bottom-clientDescription h5{
+        font-size: 20px;
+        margin: 20px auto;
+    }
+    .testimonials-bottom-clientDescription h6{
+        font-size: 15px;
+        margin: 10px auto;
+        color: #515851;
+        font-weight: 600;
+    }
+}
+/* .....................................................980px responsive..........  */
+@media all and (max-width: 980px) {
+    .testimonials{
+        height: auto;
+    }
+    .testimonials-top{
+        display: flex;
+        justify-content: space-between;
+        margin: 50px auto;
+        height: auto;
+    }
+    .testimonials-top-left{
+        width: 36%;
+        position: relative;
+    }
+    .testimonials-top-left h3{
+        font-size: 60px;
+        width: 90%;
+        margin: auto;
+    }
+    .keyword.testimonials{
+        position: absolute;
+        font-size: 15px;
+        top: -30px;
+        left: 20px;
+    
+    }
+    .testimonials-top-middle{
+        width: 35%;
+    }
+    .text{
+        width: 100%;
+    }
+    .landingtext.kindword{
+        font-size: 12px;
+        color: #556655;
+        line-height: 2rem;
+        width: 100%;
+    }
+    .testimonials-top-right{
+        width: 20%;
+        display:flex;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+    .downarrow{
+        width: 30%;
+        height: 50px;
+        display: block;
+    }
+    .arrow-box{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid rgb(29, 2, 2);
+        padding: 10px;
+        height: 50px;
+        border-radius: 35px;
+        margin-left: 5px;
+    }
+    .arrow-box span{
+        transform: rotate(-25deg);
+        font-size: 15px;
+    }
+    .BlackArrow{
+        display: block;
+        width: 22%;
+        height: 40px;
+        margin: auto;
+    }
+    .testimonials-bottom{
+        display: flex;
+        justify-content: space-between;
+        margin: 80px auto;
+    }
+    .testimonials-bottom-clientImg{
+        width: 20%;
+        margin: 0 auto;
+    }
+    .clientImg{
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+    }
+    .testimonials-bottom-clientDescription{
+        width: 40%;
+        border-top: 3px solid #556655;
+        border-bottom: 3px solid #556655;
+        padding: 30px 0;
+    }
+    .testimonials-bottom-clientDescription p{
+        font-size: 12px;
+        color: #556655;
+        line-height: 2rem;
+        margin-bottom: 30px;
+    }
+    .testimonials-bottom-clientDescription p span{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .testimonials-bottom-clientDescription h5{
+        font-size: 16px;
+        margin: 17px auto;
+    }
+    .testimonials-bottom-clientDescription h6{
+        font-size: 15px;
+        margin: 8px auto;
+        color: #515851;
+        font-weight: 500;
+    
+    }
+}
+
+
+
+/* .....................................................768px responsive..........  */
+@media all and (max-width: 768px) {
+    .testimonials{
+        height: auto;
+    }
+    .testimonials-top{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 50px auto;
+        height: auto;
+    }
+    .testimonials-top-left{
+        width: 90%;
+        margin: auto;
+        position: relative;
+    }
+    .testimonials-top-left h3{
+        font-size: 60px;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .keyword.testimonials{
+        position: absolute;
+        font-size: 15px;
+        top: -30px;
+        left: 20px;
+    
+    }
+    .testimonials-top-middle{
+        width: 50%;
+    }
+    .text{
+        width: 100%;
+    }
+    .landingtext.kindword{
+        font-size: 12px;
+        color: #556655;
+        line-height: 2rem;
+        width: 100%;
+    }
+    .testimonials-top-right{
+        width: 30%;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .downarrow{
+        width: 30%;
+        height: 50px;
+        display: block;
+    }
+    .arrow-box{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid rgb(29, 2, 2);
+        padding: 10px;
+        height: 50px;
+        border-radius: 35px;
+        margin-left: 5px;
+    }
+    .arrow-box span{
+        transform: rotate(-25deg);
+        font-size: 15px;
+    }
+    .BlackArrow{
+        display: block;
+        width: 22%;
+        height: 40px;
+        margin: auto;
+    }
+    .testimonials-bottom{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 80px auto;
+    }
+    .testimonials-bottom-clientImg{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .clientImg{
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+    }
+    .testimonials-bottom-clientDescription{
+        width: 100%;
+        border-top: 3px solid #556655;
+        border-bottom: 3px solid #556655;
+        margin: 20px auto;
+        padding: 30px 0;
+    }
+    .testimonials-bottom-clientDescription p{
+        font-size: 15px;
+        color: #556655;
+        line-height: 2rem;
+        margin-bottom: 30px;
+    }
+    .testimonials-bottom-clientDescription p span{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .testimonials-bottom-clientDescription h5{
+        font-size: 16px;
+        margin: 17px auto;
+    }
+    .testimonials-bottom-clientDescription h6{
+        font-size: 15px;
+        margin: 8px auto;
+        color: #515851;
+        font-weight: 500;
+    
+    }
+}
+/* .....................................................640px responsive..........  */
+@media all and (max-width: 640px) {
+    .testimonials{
+        height: auto;
+    }
+    .testimonials-top{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 50px auto;
+        height: auto;
+    }
+    .testimonials-top-left{
+        width: 90%;
+        margin: auto;
+        position: relative;
+    }
+    .testimonials-top-left h3{
+        font-size: 60px;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .keyword.testimonials{
+        position: absolute;
+        font-size: 15px;
+        top: -30px;
+        left: 20px;
+    
+    }
+    .testimonials-top-middle{
+        width: 50%;
+    }
+    .text{
+        width: 100%;
+    }
+    .landingtext.kindword{
+        font-size: 12px;
+        color: #556655;
+        line-height: 2rem;
+        width: 100%;
+    }
+    .testimonials-top-right{
+        width: 30%;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .downarrow{
+        width: 30%;
+        height: 50px;
+        display: block;
+    }
+    .arrow-box{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid rgb(29, 2, 2);
+        padding: 10px;
+        height: 50px;
+        border-radius: 35px;
+        margin-left: 5px;
+    }
+    .arrow-box span{
+        transform: rotate(-25deg);
+        font-size: 15px;
+    }
+    .BlackArrow{
+        display: block;
+        width: 22%;
+        height: 40px;
+        margin: auto;
+    }
+    .testimonials-bottom{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 80px auto;
+    }
+    .testimonials-bottom-clientImg{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .clientImg{
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+    }
+    .testimonials-bottom-clientDescription{
+        width: 100%;
+        border-top: 3px solid #556655;
+        border-bottom: 3px solid #556655;
+        margin: 20px auto;
+        padding: 30px 0;
+    }
+    .testimonials-bottom-clientDescription p{
+        font-size: 15px;
+        color: #556655;
+        line-height: 2rem;
+        margin-bottom: 30px;
+    }
+    .testimonials-bottom-clientDescription p span{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .testimonials-bottom-clientDescription h5{
+        font-size: 16px;
+        margin: 17px auto;
+    }
+    .testimonials-bottom-clientDescription h6{
+        font-size: 15px;
+        margin: 8px auto;
+        color: #515851;
+        font-weight: 500;
+    
+    }
+}
+/* .....................................................480px responsive..........  */
+@media all and (max-width: 480px) {
+    .testimonials{
+        height: auto;
+    }
+    .testimonials-top{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 50px auto;
+        height: auto;
+    }
+    .testimonials-top-left{
+        width: 90%;
+        margin: auto;
+        position: relative;
+    }
+    .testimonials-top-left h3{
+        font-size: 50px;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .keyword.testimonials{
+        position: absolute;
+        font-size: 13px;
+        top: -22px;
+        left: 20px;
+    
+    }
+    .testimonials-top-middle{
+        width: 90%;
+        margin: auto;
+    }
+    .text{
+        width: 100%;
+    }
+    .landingtext.kindword{
+        font-size: 12px;
+        color: #556655;
+        line-height: 2rem;
+        width: 100%;
+    }
+    .testimonials-top-right{
+        width: 50%;
+        margin: auto;;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .downarrow{
+        width: 40%;
+        height: 50px;
+        display: block;
+    }
+    .arrow-box{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid rgb(29, 2, 2);
+        padding: 10px;
+        height: 50px;
+        border-radius: 35px;
+        margin-left: 5px;
+    }
+    .arrow-box span{
+        transform: rotate(-25deg);
+        font-size: 15px;
+        margin: 15px 0;
+    }
+    .BlackArrow{
+        display: block;
+        width: 22%;
+        height: 40px;
+        margin: auto;
+    }
+    .testimonials-bottom{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 80px auto;
+    }
+    .testimonials-bottom-clientImg{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .clientImg{
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+    }
+    .testimonials-bottom-clientDescription{
+        width: 100%;
+        border-top: 3px solid #556655;
+        border-bottom: 3px solid #556655;
+        margin: 20px auto;
+        padding: 30px 0;
+    }
+    .testimonials-bottom-clientDescription p{
+        font-size: 12px;
+        color: #556655;
+        line-height: 2rem;
+        margin-bottom: 30px;
+    }
+    .testimonials-bottom-clientDescription p span{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .testimonials-bottom-clientDescription h5{
+        font-size: 16px;
+        margin: 17px auto;
+    }
+    .testimonials-bottom-clientDescription h6{
+        font-size: 15px;
+        margin: 8px auto;
+        color: #515851;
+        font-weight: 500;
+    
+    }
+}
+
