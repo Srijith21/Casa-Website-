@@ -17,6 +17,7 @@ a{
 }
 p{
     font-family: Poppins-Regular;
+    line-height: 1.5rem;
 }
 
 .abcd{
@@ -545,7 +546,7 @@ p{
     height: 100vh;
     margin-top: 80px;
     padding: 0 20px;
-    background: red;
+    background: #FFF;
 }
 .container.spotlight{
     display: flex;
@@ -643,7 +644,6 @@ h2.Landinghead{
         height: auto;
         margin-top: 80px;
         padding: 0 20px;
-        background: red;
     }
     .container.spotlight{
         display: flex;
@@ -743,7 +743,6 @@ h2.Landinghead{
         height: auto;
         margin-top: 80px;
         padding: 0 20px;
-        background: red;
     }
     .container.spotlight{
         display: flex;
@@ -904,7 +903,7 @@ h2.Landinghead{
         margin-left: 10px;
     }
     .socialmedia-icons{
-        width: 100%;
+        width: 80%;
         margin-top: 30px;
     }
     .socialmedia{
@@ -928,8 +927,8 @@ h2.Landinghead{
     }
     .play-img{
         position: absolute;
-        top: 80px;
-        left: 89px;
+        top: 120px;
+        left: 170px;
         display: block;
         width: 62px;
         height: 60%;
@@ -1506,3 +1505,731 @@ h2.Landinghead{
     }
 
 }
+
+/* <!------------------------------------------------------------------------------------------------------------------SERVICE OFFER --> */
+.ServiceOffer{
+    background-color: #FCDA69;
+    height: auto;
+    
+}
+.container.service{
+    background-color: #FCDA69;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+.service-left{
+    max-width: 50%;
+    padding: 50px;
+    position: relative;
+}
+.keyword.service{
+    position: absolute;
+    top: 40px;
+    left: 60px;
+
+}
+.service-heading{
+    font-size: 67px;
+    font-weight: 700;
+    width: 80%;
+    margin: 30px auto;
+}
+.text.ServiceOffer{
+    max-height: 200px;
+    padding: auto;
+}
+.landingtext.ServiceOffer{
+    max-height: 200px;
+    padding: auto;
+}
+.service-seal{
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 20%;
+    bottom: 50px;
+    left: 0px;
+}
+.service-right{
+  margin: auto;
+  height: 100%;
+  padding: 80px 0;
+}
+
+.service-one{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    width: 100%;
+    border-top: #000 1px solid;
+    margin: auto;
+}
+.service-num{
+    margin: 20px;
+    width: 20%;
+}
+.servicehead{
+    width: 60%;
+    margin: auto;
+}
+.service-main-head{
+    font-size: 30px;
+    font-weight: 700;
+}
+.explore{
+    font-size: 15px;
+    font-weight: 700;
+    margin: auto;
+}
+.arrow-container{
+    margin-top: 130px;
+    width: 20%;
+}
+.arrow-icon{
+    display: flex;
+    align-items: flex-end;
+    height: 50px;
+    width: 100%;
+
+}
+
+
+/* ..............................................................1280px responsive... */
+@media all and (max-width: 1280px) {
+    .ServiceOffer{
+        background-color: #FCDA69;
+        height: auto;
+        
+    }
+    .container.service{
+        background-color: #FCDA69;
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+    }
+    
+    .service-left{
+        max-width: 50%;
+        padding: 50px;
+        position: relative;
+    }
+    .keyword.service{
+        position: absolute;
+        top: 40px;
+        left: 60px;
+    
+    }
+    .service-heading{
+        font-size: 67px;
+        font-weight: 700;
+        width: 80%;
+        margin: 30px auto;
+    }
+    .text.ServiceOffer{
+        max-height: 200px;
+        padding: auto;
+    }
+    .landingtext.ServiceOffer{
+        max-height: 200px;
+        padding: auto;
+    }
+    .service-seal{
+        position: absolute;
+        display: block;
+        width: 50%;
+        height: 20%;
+        bottom: 50px;
+        left: 0px;
+    }
+    .service-right{
+      margin: auto;
+      height: 100%;
+      padding: 80px 0;
+    }
+    
+    .service-one{
+        display: flex;
+        justify-content: space-between;
+        height: 200px;
+        width: 100%;
+        border-top: #000 1px solid;
+        margin: auto;
+    }
+    .service-num{
+        margin: 20px;
+        width: 20%;
+    }
+    .servicehead{
+        width: 60%;
+        margin: auto;
+    }
+    .service-main-head{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .explore{
+        font-size: 15px;
+        font-weight: 700;
+        margin: auto;
+    }
+    .arrow-container{
+        margin-top: 130px;
+        width: 20%;
+    }
+    .arrow-icon{
+        display: flex;
+        align-items: flex-end;
+        height: 50px;
+        width: 100%;
+    
+    }
+}
+/* ..............................................................980px responsive... */
+@media all and (max-width: 980px) {
+    .ServiceOffer{
+        background-color: #FCDA69;
+        height: auto;
+    }
+    .container.service{
+        background-color: #FCDA69;
+    }
+    
+    .service-left{
+        width: 45%;
+        padding: 70px;
+        position: relative;
+    }
+    .keyword.service{
+        position: absolute;
+        top: 40px;
+        left: 60px;
+        font-size: 15px;
+    }
+    .service-heading{
+        font-size: 50px;
+        font-weight: 700;
+        width: 87%;
+        margin: 25px auto;
+    }
+    .service-seal{
+        position: absolute;
+        display: block;
+        width: 30%;
+        height: 15%;
+        bottom: 50px;
+        left: 0px;
+    }
+    .text.ServiceOffer{
+        max-height: 200px;
+        padding: 10px;
+        width: 100%;
+    }
+    .landingtext.ServiceOffer{
+        max-height: 200px;
+        padding: auto;
+        font-size: 15px;
+    }
+    .service-right{
+      margin: auto;
+      width: 50%;
+      height: 100%;
+      padding: 80px 0;
+    }
+    
+    .service-one{
+        display: flex;
+        justify-content: space-between;
+        height: 120px;
+        width: 100%;
+        border-top: #000 1px solid;
+        margin: 10px auto;
+    }
+    .service-num{
+        margin: 20px;
+        width: 20%;
+        font-size: 20px;
+    }
+    .servicehead{
+        width: 60%;
+        margin: auto;
+    }
+    .service-main-head{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .explore{
+        font-size: 15px;
+        font-weight: 700;
+        margin: auto;
+    }
+    .arrow-container{
+        margin: auto;
+        width: 20%;
+    }
+    .arrow-icon{
+        display: flex;
+        align-items: flex-end;
+        height: 50px;
+        width: 100%;
+    
+    }
+}
+
+
+/* ..............................................................720px responsive... */
+@media all and (max-width: 768px) {
+    .ServiceOffer{
+        background-color: #FCDA69;
+        height: auto;
+    }
+    .container.service{
+        background-color: #FCDA69;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .service-left{
+        display: block;
+        width: 35%;
+        padding: 70px 20px 20px 70px;
+        position: relative;
+    }
+    .keyword.service{
+        position: absolute;
+        top: 40px;
+        left: 60px;
+    
+    }
+    .service-heading{
+        font-size: 35px;
+        font-weight: 700;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .service-seal{
+        position: absolute;
+        display: block;
+        width: 30%;
+        height: 15%;
+        bottom: 50px;
+        left: 0px;
+    }
+    .text.ServiceOffer p{
+        font-size: 14px;
+        width: 100%;
+        line-height: 1.5rem;
+    }
+    .service-right{
+      margin: auto;
+      width: auto;
+      height:auto;
+      padding: 80px 0;
+    }
+    
+    .service-one{
+        display: flex;
+        justify-content: space-between;
+        height: 120px;
+        width: 100%;
+        border-top: #000 1px solid;
+        margin: auto;
+    }
+    .service-num{
+        margin: 20px;
+        width: 20%;
+    }
+    .servicehead{
+        width: 60%;
+        margin: auto;
+    }
+    .service-main-head{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .explore{
+        font-size: 10px;
+        font-weight: 700;
+        margin: auto;
+    }
+    .arrow-container{
+        margin: auto;
+        width: 20%;
+    }
+    .arrow-icon{
+        display: flex;
+        align-items: flex-end;
+        height: 40px;
+        width: 100%;
+    
+    }
+}
+
+
+
+/* ..............................................................640px responsive... */
+@media all and (max-width: 640px) {
+    .ServiceOffer{
+        background-color: #FCDA69;
+        height: auto;
+    }
+    .container.service{
+        background-color: #FCDA69;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .service-left.ServiceOffer{
+        position: relative;
+        max-width: 100%;
+        padding: 10px;
+        width: 90%;
+        margin: 30px auto 10px;
+    }
+    
+    .service-left{
+        width: 100%;
+        margin: auto;
+        padding:10px;
+        position: relative;
+    }
+    .keyword.service{
+        position: absolute;
+        top: 20px;
+        left: 100px;
+    
+    }
+    .service-heading{
+        font-size: 45px;
+        font-weight: 700;
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .service-seal{
+        position: absolute;
+        display: block;
+        width: 30%;
+        height: 25%;
+        bottom: -30px;
+        left: 0px;
+    }
+    .text.ServiceOffer p{
+        font-size: 15px;
+        width: 100%;
+    }
+    .service-right{
+      margin: auto;
+      width: 90%;
+      height:auto;
+      padding: 80px 0;
+    }
+    
+    .service-one{
+        display: flex;
+        justify-content: space-between;
+        height: 120px;
+        width: 100%;
+        border-top: #000 1px solid;
+        margin: auto;
+    }
+    .service-num{
+        margin: 20px;
+        width: 20%;
+    }
+    .servicehead{
+        width: 60%;
+        margin: auto;
+    }
+    .service-main-head{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .explore{
+        font-size: 10px;
+        font-weight: 700;
+        margin: auto;
+    }
+    .arrow-container{
+        margin: auto;
+        width: 20%;
+    }
+    .arrow-icon{
+        display: flex;
+        align-items: flex-end;
+        height: 50px;
+        width: 100%;
+    
+    }
+}
+
+
+/* ..............................................................480px responsive... */
+@media all and (max-width: 480px) {
+    .ServiceOffer{
+        background-color: #FCDA69;
+        height: auto;
+    }
+    .container.service{
+        background-color: #FCDA69;
+        display: block;
+    }
+    
+    .service-left.ServiceOffer{
+        position: relative;
+        max-width: 100%;
+        padding: 10px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .keyword.service{
+        position: absolute;
+        top: 20px;
+        left: 40px;
+    
+    }
+    .service-heading{
+        font-size: 40px;
+        font-weight: 700;
+        width: 100%;
+        margin: 30px auto 15px;
+        text-align: center;
+    }
+    .service-seal{
+        position: absolute;
+        display: block;
+        width: 30%;
+        height: 25%;
+        bottom: -30px;
+        left: 0px;
+    }
+    .text.ServiceOffer p{
+        font-size: 10px;
+        width: 100%;
+        max-height: 200px;
+    }
+    .service-right{
+        max-width: 100%;
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    
+    .service-one{
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+        width: 100%;
+        border-top: #000 1px solid;
+        margin: auto;
+    }
+    .service-num{
+        margin: 20px;
+        width: 20%;
+    }
+    .servicehead{
+        width: 60%;
+        margin: auto;
+    }
+    .service-main-head{
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .explore{
+        font-size: 10px;
+        font-weight: 700;
+        margin: auto;
+    }
+    .arrow-container{
+        margin: auto;
+        width: 20%;
+    }
+    .arrow-icon{
+        display: flex;
+        align-items: flex-end;
+        height: 50px;
+        width: 100%;
+    
+    }
+}
+/* ..............................................................360px responsive... */
+@media all and (max-width: 360px) {
+    .ServiceOffer{
+        background-color: #FCDA69;
+        height: auto;
+    }
+    .container.service{
+        background-color: #FCDA69;
+        display: block;
+    }
+    
+    .service-left.ServiceOffer{
+        position: relative;
+        max-width: 100%;
+        padding: 10px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .keyword.service{
+        position: absolute;
+        top: 20px;
+        left: 40px;
+        font-size: 12px;
+    }
+    .service-heading{
+        font-size: 30px;
+        font-weight: 700;
+        width: 100%;
+        margin: 30px auto 15px;
+        text-align: center;
+    }
+    .service-seal{
+        position: absolute;
+        display: block;
+        width: 30%;
+        height: 25%;
+        bottom: -30px;
+        left: 0px;
+    }
+    .text.ServiceOffer p{
+        font-size: 10px;
+        width: 100%;
+        max-height: 200px;
+    }
+    .service-right{
+        max-width: 100%;
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    
+    .service-one{
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+        width: 100%;
+        border-top: #000 1px solid;
+        margin: auto;
+    }
+    .service-num{
+        margin: 20px;
+        width: 20%;
+    }
+    .servicehead{
+        width: 60%;
+        margin: auto;
+    }
+    .service-main-head{
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .explore{
+        font-size: 10px;
+        font-weight: 700;
+        margin: auto;
+    }
+    .arrow-container{
+        margin: auto;
+        width: 20%;
+    }
+    .arrow-icon{
+        display: flex;
+        align-items: flex-end;
+        height: 30px;
+        width: 100%;
+    
+    }
+}
+/* ..............................................................320px responsive... */
+@media all and (max-width: 320px) {
+    .ServiceOffer{
+        background-color: #FCDA69;
+        height: auto;
+    }
+    .container.service{
+        background-color: #FCDA69;
+        display: block;
+    }
+    
+    .service-left.ServiceOffer{
+        position: relative;
+        max-width: 100%;
+        padding: 10px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .keyword.service{
+        position: absolute;
+        top: 20px;
+        left: 40px;
+        font-size: 10px;
+    }
+    .service-heading{
+        font-size: 30px;
+        font-weight: 700;
+        width: 100%;
+        margin: 30px auto 15px;
+        text-align: center;
+    }
+    .service-seal{
+        position: absolute;
+        display: block;
+        width: 30%;
+        height: 25%;
+        bottom: -30px;
+        left: 0px;
+    }
+    .text.ServiceOffer p{
+        font-size: 10px;
+        width: 100%;
+        max-height: 200px;
+    }
+    .service-right{
+        max-width: 100%;
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    
+    .service-one{
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+        width: 100%;
+        border-top: #000 1px solid;
+        margin: auto;
+    }
+    .service-num{
+        margin: 20px 5px;
+        width: 20%;
+        font-size: 17px;
+    }
+    .servicehead{
+        width: 60%;
+        margin: auto;
+    }
+    .service-main-head{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .explore{
+        font-size: 10px;
+        font-weight: 700;
+        margin: auto;
+    }
+    .arrow-container{
+        margin: auto;
+        width: 20%;
+    }
+    .arrow-icon{
+        display: flex;
+        align-items: flex-end;
+        height: 30px;
+        width: 100%;
+    
+    }
+}
+
