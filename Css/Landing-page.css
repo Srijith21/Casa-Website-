@@ -2316,7 +2316,7 @@ h2.Landinghead{
     color: #716e6e;
     margin: 5px auto;
 }
-/* .....................................................1280px responsive --SKILL&EXPERIENCE LANDING PAGE--..........  */
+/* ........................................1280px responsive --SKILL&EXPERIENCE LANDING PAGE--..........  */
 
 @media all and (max-width: 1280px) {
     .skills-head{
@@ -2406,7 +2406,7 @@ h2.Landinghead{
         margin: 5px auto;
     }
 }
-/* .....................................................980px responsive --SKILL&EXPERIENCE LANDING PAGE--..........  */
+/* ........................................980px responsive --SKILL&EXPERIENCE LANDING PAGE--..........  */
 @media all and (max-width: 980px) {
     .skills-head{
         font-size: 50px;
@@ -2491,7 +2491,7 @@ h2.Landinghead{
         margin: 5px auto;
     }
 }
-/* .....................................................640px responsive --SKILL&EXPERIENCE LANDING PAGE--..........  */
+/* ........................................640px responsive --SKILL&EXPERIENCE LANDING PAGE--..........  */
 @media all and (max-width: 640px) {
     .skills-head{
         font-size: 50px;
@@ -2576,7 +2576,7 @@ h2.Landinghead{
         margin: 5px auto;
     }
 }
-/* .....................................................480px responsive --SKILL&EXPERIENCE LANDING PAGE--..........  */
+/* ........................................480px responsive --SKILL&EXPERIENCE LANDING PAGE--..........  */
 @media all and (max-width: 480px) {
     .skills-head{
         font-size: 40px;
@@ -2663,7 +2663,7 @@ h2.Landinghead{
         margin: 5px auto;
     }
 }
-/* .....................................................360px responsive --SKILL&EXPERIENCE LANDING PAGE--..........  */
+/* ........................................360px responsive --SKILL&EXPERIENCE LANDING PAGE--..........  */
 @media all and (max-width: 360px) {
     .skills-head{
         font-size: 40px;
@@ -2756,7 +2756,7 @@ h2.Landinghead{
         margin: 5px auto;
     }
 }
-/* .....................................................320px responsive --SKILL&EXPERIENCE LANDING PAGE--..........  */
+/* ........................................320px responsive --SKILL&EXPERIENCE LANDING PAGE--..........  */
 @media all and (max-width: 320px) {
     .skills-head{
         font-size: 40px;
@@ -2852,3 +2852,401 @@ h2.Landinghead{
 }
 
 
+/* <!-------------------------------------------------------------------------------------------- LATEST PROJECTS --> */
+.latest-projects{
+    background-color: #FCDA69;
+    height: auto;
+}
+.container.projects{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 30px;
+    position: relative;
+}
+.project-bar{
+    width: 27%;
+    padding: auto 20px;
+    
+}
+.project-bar.one h2{
+    font-size: 67px;
+    font-weight: bold;
+    margin: 10px auto;
+}
+.project-bar.two{
+    margin-top: 5%;
+
+}
+.details-top{
+    display: flex;
+    justify-content: space-between;
+}
+.details-top-content{
+    width: 70%;
+}
+
+
+.arrow-icon.project{
+    width: auto;
+    margin: 20px 0;
+}
+.details-top-content h5{
+    font-size: 30px;
+    margin: 10px auto;
+}
+.details-top-content p{
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px auto;
+}
+.project-details{
+    border-top: 1px solid #555;
+}
+.project-detail-img{
+    display: block;
+    width: 100%;
+    height: 50%;
+}
+.project-seal{
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    right: 10px;
+    bottom: 35px;
+}
+
+
+/* .....................................................980px responsive..........  */
+@media all and (max-width: 980px) {
+    .latest-projects{
+        background-color: #FCDA69;
+        height: auto;
+    }
+    .container.projects{
+        display: flex;
+        justify-content: space-between;
+        padding: 80px 30px;
+        position: relative;
+    }
+    .project-bar{
+        width: 27%;
+        padding: auto 20px;
+        
+    }
+    .project-bar.one h2{
+        font-size: 67px;
+        font-weight: bold;
+        margin: 10px auto;
+    }
+    .project-bar.two{
+        margin-top: 5%;
+    
+    }
+    .details-top{
+        display: flex;
+        justify-content: space-between;
+    }
+    .details-top-content{
+        width: 70%;
+    }
+    
+    
+    .arrow-icon.project{
+        width: auto;
+        margin: 20px 0;
+    }
+    .details-top-content h5{
+        font-size: 25px;
+        margin: 10px auto;
+    }
+    .details-top-content p{
+        font-size: 15px;
+        font-weight: 600;
+        margin: 10px auto;
+    }
+    .project-details{
+        border-top: 1px solid #555;
+    }
+    .project-detail-img{
+        display: block;
+        width: 100%;
+        height: 50%;
+    }
+    .project-seal{
+        width: 15%;
+        height: 15%;
+        position: absolute;
+        right: 10px;
+        bottom: 35px;
+    }
+}
+
+
+/* .....................................................768px responsive..........  */
+@media all and (max-width: 768px) {
+    .latest-projects{
+        background-color: #FCDA69;
+        height: auto;
+    }
+    .container.projects{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 80px 30px;
+        position: relative;
+    }
+    .project-bar{
+        width: 80%;
+        margin: 10px auto;
+        padding: auto 20px;
+        
+    }
+    .project-bar.one h2{
+        font-size: 40px;
+        font-weight: bold;
+        width: 100%;
+        margin:10px auto;
+    }
+    .project-bar.two{
+        margin-top: 5%;
+    
+    }
+    .details-top{
+        display: flex;
+        justify-content: space-between;
+    }
+    .details-top-content{
+        width: 70%;
+    }
+    
+    
+    .arrow-icon.project{
+        width: auto;
+        margin: 20px 0;
+    }
+    .details-top-content h5{
+        font-size: 25px;
+        margin: 10px auto;
+    }
+    .details-top-content p{
+        font-size: 15px;
+        font-weight: 600;
+        margin: 10px auto;
+    }
+    .project-details{
+        border-top: 1px solid #555;
+    }
+    .project-detail-img{
+        display: block;
+        width: 100%;
+        height: 50%;
+    }
+    .project-seal{
+        display: none;
+        width: 15%;
+        height: 15%;
+        position: absolute;
+        right: -8px;
+        bottom: 35px;
+    }
+}
+
+/* .....................................................640px responsive..........  */
+@media all and (max-width: 640px) {
+    .latest-projects{
+        background-color: #FCDA69;
+        height: auto;
+    }
+    .container.projects{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 80px 30px;
+        position: relative;
+    }
+    .project-bar{
+        width: 80%;
+        margin: 10px auto;
+        padding: auto 20px;
+        
+    }
+    .project-bar.one h2{
+        font-size: 55px;
+        font-weight: bold;
+        width: 100%;
+        margin:10px auto;
+    }
+    .project-bar.two{
+        margin-top: 5%;
+    
+    }
+    .details-top{
+        display: flex;
+        justify-content: space-between;
+    }
+    .details-top-content{
+        width: 70%;
+    }
+    
+    
+    .arrow-icon.project{
+        width: auto;
+        margin: 20px 0;
+    }
+    .details-top-content h5{
+        font-size: 25px;
+        margin: 20px auto;
+    }
+    .details-top-content p{
+        font-size: 15px;
+        font-weight: 600;
+        margin: 10px auto;
+    }
+    .project-details{
+        border-top: 1px solid #555;
+    }
+    .project-detail-img{
+        display: block;
+        width: 100%;
+        height: 50%;
+    }
+    .project-seal{
+        width: 15%;
+        height: 15%;
+        position: absolute;
+        right: -8px;
+        bottom: 35px;
+    }
+}
+/* .....................................................480px responsive..........  */
+@media all and (max-width: 480px) {
+    .latest-projects{
+        background-color: #FCDA69;
+        height: auto;
+    }
+    .container.projects{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 80px 30px;
+        position: relative;
+    }
+    .project-bar{
+        width: 80%;
+        margin: 10px auto;
+        padding: auto 20px;
+        
+    }
+    .project-bar.one h2{
+        font-size: 55px;
+        font-weight: bold;
+        width: 100%;
+        margin:10px auto;
+    }
+    .project-bar.two{
+        margin-top: 5%;
+    
+    }
+    .details-top{
+        display: flex;
+        justify-content: space-between;
+    }
+    .details-top-content{
+        width: 70%;
+    }
+    
+    
+    .arrow-icon.project{
+        width: auto;
+        margin: 20px 0;
+    }
+    .details-top-content h5{
+        font-size: 25px;
+        margin: 20px auto;
+    }
+    .details-top-content p{
+        font-size: 15px;
+        font-weight: 600;
+        margin: 10px auto;
+    }
+    .project-details{
+        border-top: 1px solid #555;
+    }
+    .project-detail-img{
+        display: block;
+        width: 100%;
+        height: 50%;
+    }
+    .project-seal{
+        width: 15%;
+        height: 15%;
+        position: absolute;
+        right: -8px;
+        bottom: 35px;
+    }
+}
+
+
+/* .....................................................360px responsive..........  */
+@media all and (max-width: 360px) {
+    .latest-projects{
+        background-color: #FCDA69;
+        height: auto;
+    }
+    .container.projects{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 30px;
+        position: relative;
+    }
+    .project-bar{
+        width: 80%;
+        margin: 10px auto;
+        padding: auto 20px;
+        
+    }
+    .project-bar.one h2{
+        font-size: 45px;
+        font-weight: bold;
+        width: 100%;
+        margin:10px auto;
+    }
+    .project-bar.two{
+        margin-top: 5%;
+    
+    }
+    .details-top{
+        display: flex;
+        justify-content: space-between;
+    }
+    .details-top-content{
+        width: 70%;
+    }
+    
+    
+    .arrow-icon.project{
+        width: auto;
+        margin: 20px 0;
+    }
+    .details-top-content h5{
+        font-size: 20px;
+        margin: 20px auto;
+    }
+    .details-top-content p{
+        font-size: 15px;
+        font-weight: 600;
+        margin: 10px auto;
+    }
+    .project-details{
+        border-top: 1px solid #555;
+    }
+    .project-detail-img{
+        display: block;
+        width: 100%;
+        height: 50%;
+    }
+    .project-seal{
+        width: 15%;
+        height: 15%;
+        position: absolute;
+        right: -8px;
+        bottom: 35px;
+    }
+}
