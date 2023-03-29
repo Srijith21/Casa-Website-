@@ -19,11 +19,13 @@ p{
     font-family: Poppins-Regular;
     line-height: 1.5rem;
 }
-
-.abcd{
-    margin-top: 300px;
-    background-color: green;
+ul li{
+    list-style: none;
 }
+.container {
+    width: 90%;
+    margin: auto;
+  }
 /* <!--------------------------------------------------------------------------------header-bar --> */
 .header-bar{
     position: fixed;
@@ -1592,11 +1594,8 @@ h2.Landinghead{
     align-items: flex-end;
     height: 50px;
     width: 100%;
-
 }
-
-
-/* ..............................................................1280px responsive... */
+/* ..............................................................1280px responsive --service offer--... */
 @media all and (max-width: 1280px) {
     .ServiceOffer{
         background-color: #FCDA69;
@@ -1686,7 +1685,7 @@ h2.Landinghead{
     
     }
 }
-/* ..............................................................980px responsive... */
+/* ..............................................................980px responsive --service offer--... */
 @media all and (max-width: 980px) {
     .ServiceOffer{
         background-color: #FCDA69;
@@ -1777,8 +1776,7 @@ h2.Landinghead{
     }
 }
 
-
-/* ..............................................................720px responsive... */
+/* ..............................................................720px responsive --service offer--... */
 @media all and (max-width: 768px) {
     .ServiceOffer{
         background-color: #FCDA69;
@@ -1866,9 +1864,7 @@ h2.Landinghead{
     }
 }
 
-
-
-/* ..............................................................640px responsive... */
+/* ..............................................................640px responsive --service offer--... */
 @media all and (max-width: 640px) {
     .ServiceOffer{
         background-color: #FCDA69;
@@ -1962,9 +1958,7 @@ h2.Landinghead{
     
     }
 }
-
-
-/* ..............................................................480px responsive... */
+/* ..............................................................480px responsive --service offer--... */
 @media all and (max-width: 480px) {
     .ServiceOffer{
         background-color: #FCDA69;
@@ -2053,7 +2047,7 @@ h2.Landinghead{
     
     }
 }
-/* ..............................................................360px responsive... */
+/* ..............................................................360px responsive --service offer--... */
 @media all and (max-width: 360px) {
     .ServiceOffer{
         background-color: #FCDA69;
@@ -2142,7 +2136,7 @@ h2.Landinghead{
     
     }
 }
-/* ..............................................................320px responsive... */
+/* ..............................................................320px responsive --service offer--... */
 @media all and (max-width: 320px) {
     .ServiceOffer{
         background-color: #FCDA69;
@@ -2232,4 +2226,629 @@ h2.Landinghead{
     
     }
 }
+
+
+/* <!---------------------------------------------------------------------------------------------------SKILL&EXPERIENCE LANDING PAGE --> */
+
+.skills-head{
+    font-size: 67px;
+    font-weight: 700;
+    width: 80%;
+    margin: 30px 0;
+}
+.container.skills{
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.text.experience{
+    width: 100%;
+}
+.keyword.experience{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    font-size: 15px;
+}
+.landingtext.experience{
+    font-size: 17px;
+    line-height: 1.3rem;
+}
+
+.skills-smallhead{
+    font-size: 30px;
+    margin: 30px auto 50px;
+}
+.skills-left{
+    width: 50%;
+    padding: 50px;
+}
+.skills-list-ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.skill-items{
+    width: 32%;
+    margin: 15px auto;
+    text-align: center;
+}
+.skill-items img{
+    display: block;
+    margin: 5px  auto;
+}
+.skill-items span{
+    text-align: center;
+}
+.skills-right{
+    width: 45%;
+    padding: 40px 0;
+}
+.experience-tab{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #848687d4;
+    width: 100%;
+    margin: auto;
+}
+.time-period{
+    width: 30%;
+    margin:15px  auto ;
+    font-weight: bold;
+}
+.exp-head{
+    display: block;
+    width: 100%;
+    margin: 25px 20px;
+}
+.exp-head h6{
+    font-size: 28px;
+    padding: 0;
+    margin: auto;
+}
+.exp-head p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #716e6e;
+    margin: 5px auto;
+}
+/* .....................................................1280px responsive --SKILL&EXPERIENCE LANDING PAGE--..........  */
+
+@media all and (max-width: 1280px) {
+    .skills-head{
+        font-size: 67px;
+        font-weight: 700;
+        width: 80%;
+        margin: 30px 0;
+    }
+    .container.skills{
+        margin: 50px auto;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    .text.experience{
+        width: 100%;
+    }
+    .keyword.experience{
+        position: absolute;
+        top: -5px;
+        left: 50px;
+    }
+    .landingtext.experience{
+        font-size: 17px;
+        line-height: 1.3rem;
+    }
+    
+    .skills-smallhead{
+        font-size: 30px;
+        margin: 30px auto 50px;
+    }
+    .skills-left{
+        width: 50%;
+        padding: 50px;
+    }
+    .skills-list-ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+    .skill-items{
+        width: 32%;
+        margin: 15px auto;
+        text-align: center;
+    }
+    .skill-items img{
+        display: block;
+        margin: 5px  auto;
+    }
+    .skill-items span{
+        /* display: flex;
+        justify-content: center; */
+        text-align: center;
+    }
+    .skills-right{
+        width: 45%;
+        padding: 40px 0;
+    }
+    
+    .experience-tab{
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #848687d4;
+        width: 100%;
+        margin: auto;
+    }
+    .time-period{
+        width: 30%;
+        margin:15px  auto ;
+        font-weight: bold;
+    }
+    .exp-head{
+        display: block;
+        width: 100%;
+        margin: 40px 20px;
+    }
+    .exp-head h6{
+        font-size: 28px;
+    }
+    .exp-head p{
+        font-size: 15px;
+        font-weight: 400;
+        color: #716e6e;
+        margin: 5px auto;
+    }
+}
+/* .....................................................980px responsive --SKILL&EXPERIENCE LANDING PAGE--..........  */
+@media all and (max-width: 980px) {
+    .skills-head{
+        font-size: 50px;
+        font-weight: 600;
+        width: 80%;
+        margin: 20px 0;
+        height: auto;
+    }
+    .container.skills{
+        margin: 50px auto;
+        position: relative;
+    }
+    .text.experience{
+        width: 100%;
+    }
+    .keyword.experience{
+        position: absolute;
+        top: -5px;
+        left: 50px;
+    }
+    .landingtext.experience{
+        font-size: 17px;
+        line-height: 1.3rem;
+    }
+    
+    .skills-smallhead{
+        font-size: 30px;
+        margin: 30px auto;
+    }
+    .skills-left{
+        width: 100%;
+        padding: 50px;
+    }
+    .skills-list-ul{
+        width: 100%;
+        margin: auto;
+    }
+    .skill-items{
+        width: 38%;
+        margin: 15px auto;
+        text-align: center;
+    }
+    .skill-items img{
+        display: block;
+        width: 50px;
+        margin: 5px  auto;
+    }
+    .skill-items span{
+        /* display: flex;
+        justify-content: center; */
+        text-align: center;
+    }
+    .skills-right{
+        width: 100%;
+        padding: 40px 0;
+    }
+    
+    .experience-tab{
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #848687d4;
+        width: 100%;
+        margin: auto;
+    }
+    .time-period{
+        width: 30%;
+        margin:15px  auto ;
+        font-weight: bold;
+    }
+    .exp-head{
+        display: block;
+        width: 100%;
+        margin: 40px 20px;
+    }
+    .exp-head h6{
+        font-size: 28px;
+    }
+    .exp-head p{
+        font-size: 15px;
+        font-weight: 400;
+        color: #716e6e;
+        margin: 5px auto;
+    }
+}
+/* .....................................................640px responsive --SKILL&EXPERIENCE LANDING PAGE--..........  */
+@media all and (max-width: 640px) {
+    .skills-head{
+        font-size: 50px;
+        font-weight: 600;
+        width: 100%;
+        margin: 20px auto;
+        height: auto;
+    }
+    .container.skills{
+        margin: 50px auto;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .text.experience{
+        width: 100%;
+    }
+    .keyword.experience{
+        position: absolute;
+        top: -5px;
+        left: 50px;
+    }
+    .landingtext.experience{
+        font-size: 17px;
+        line-height: 1.3rem;
+    }
+    .skills-smallhead{
+        font-size: 30px;
+        margin: 30px auto;
+    }
+    .skills-left{
+        width: 100%;
+        padding: 50px;
+    }
+    .skills-list-ul{
+        width: 100%;
+        margin: auto;
+    }
+    .skill-items{
+        width: 38%;
+        margin: 15px auto;
+        text-align: center;
+    }
+    .skill-items img{
+        display: block;
+        width: 50px;
+        margin: 5px  auto;
+    }
+    .skill-items span{
+        text-align: center;
+        font-size: 13px;
+    }
+    .skills-right{
+        width: 100%;
+        padding: 40px 0;
+    }
+    
+    .experience-tab{
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #848687d4;
+        width: 100%;
+        margin: auto;
+    }
+    .time-period{
+        width: 30%;
+        margin:15px  auto ;
+        font-weight: bold;
+    }
+    .exp-head{
+        display: block;
+        width: 100%;
+        margin: 40px 20px;
+    }
+    .exp-head h6{
+        font-size: 28px;
+    }
+    .exp-head p{
+        font-size: 15px;
+        font-weight: 400;
+        color: #716e6e;
+        margin: 5px auto;
+    }
+}
+/* .....................................................480px responsive --SKILL&EXPERIENCE LANDING PAGE--..........  */
+@media all and (max-width: 480px) {
+    .skills-head{
+        font-size: 40px;
+        font-weight: 600;
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+    .container.skills{
+        margin: 50px auto;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .text.experience{
+        width: 100%;
+    }
+    .keyword.experience{
+        position: absolute;
+        top: -5px;
+        left: 50px;
+    }
+    .landingtext.experience{
+        font-size: 14px;
+        line-height: 1.3rem;
+    }
+    
+    .skills-smallhead{
+        font-size: 30px;
+        margin: 30px auto;
+    }
+    .skills-left{
+        width: 100%;
+        padding: 50px;
+    }
+    .skills-list-ul{
+        width: 100%;
+        margin: auto;
+    }
+    .skill-items{
+        width: 38%;
+        margin: 15px auto;
+        text-align: center;
+    }
+    .skill-items img{
+        display: block;
+        width: 50px;
+        margin: 5px  auto;
+    }
+    .skill-items span{
+        text-align: center;
+    }
+    .skills-right{
+        width: 100%;
+        padding: 40px 0;
+    }
+    
+    .experience-tab{
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #848687d4;
+        width: 100%;
+        margin: auto;
+    }
+    .time-period{
+        width: 25%;
+        margin:15px  auto ;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .exp-head{
+        display: block;
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .exp-head h6{
+        font-size: 20px;
+    }
+    .exp-head p{
+        font-size: 12px;
+        font-weight: 300;
+        color: #716e6e;
+        margin: 5px auto;
+    }
+}
+/* .....................................................360px responsive --SKILL&EXPERIENCE LANDING PAGE--..........  */
+@media all and (max-width: 360px) {
+    .skills-head{
+        font-size: 40px;
+        font-weight: 600;
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+    .container.skills{
+        margin: 50px auto;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .text.experience{
+        width: 100%;
+    }
+    .keyword.experience{
+        position: absolute;
+        top: -5px;
+        left: 50px;
+    }
+    .landingtext.experience{
+        font-size: 14px;
+        line-height: 1.3rem;
+    }
+    
+    .skills-smallhead{
+        font-size: 30px;
+        margin: 30px auto;
+        text-align: center;
+    }
+    .skills-left{
+        width: 100%;
+        padding: 50px;
+    }
+    .skills-list{
+        width: 100%;
+        margin: auto;
+    }
+    .skills-list-ul{
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+    .skill-items{
+        width: 38%;
+        margin: 15px auto;
+        text-align: center;
+    }
+    .skill-items img{
+        display: block;
+        width: 50px;
+        margin: 5px  auto;
+    }
+    .skill-items span{
+        text-align: center;
+    }
+    .skills-right{
+        width: 100%;
+        padding: 40px 0;
+    }
+    
+    .experience-tab{
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #848687d4;
+        width: 100%;
+        margin: auto;
+    }
+    .time-period{
+        width: 25%;
+        margin:15px  auto ;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .exp-head{
+        display: block;
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .exp-head h6{
+        font-size: 20px;
+    }
+    .exp-head p{
+        font-size: 12px;
+        font-weight: 300;
+        color: #716e6e;
+        margin: 5px auto;
+    }
+}
+/* .....................................................320px responsive --SKILL&EXPERIENCE LANDING PAGE--..........  */
+@media all and (max-width: 320px) {
+    .skills-head{
+        font-size: 40px;
+        font-weight: 600;
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+    .container.skills{
+        margin: 50px auto;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .text.experience{
+        width: 100%;
+    }
+    .keyword.experience{
+        position: absolute;
+        top: -5px;
+        left: 50px;
+        font-size: 13px;
+    }
+    .landingtext.experience{
+        font-size: 14px;
+        line-height: 1.3rem;
+    }
+    
+    .skills-smallhead{
+        font-size: 30px;
+        margin: 30px auto;
+        text-align: center;
+    }
+    .skills-left{
+        width: 100%;
+        padding: 50px;
+    }
+    .skills-list{
+        width: 100%;
+        margin: auto;
+    }
+    .skills-list-ul{
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+    .skill-items{
+        width: 70%;
+        margin: 15px auto;
+        text-align: center;
+    }
+    .skill-items img{
+        display: block;
+        width: 50px;
+        margin: 5px  auto;
+    }
+    .skill-items span{
+        text-align: center;
+    }
+    .skills-right{
+        width: 100%;
+        padding:0;
+    }
+    
+    .experience-tab{
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #848687d4;
+        width: 100%;
+        margin: auto;
+    }
+    .time-period{
+        width: 25%;
+        margin:15px  auto ;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .exp-head{
+        display: block;
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .exp-head h6{
+        font-size: 20px;
+    }
+    .exp-head p{
+        font-size: 12px;
+        font-weight: 300;
+        color: #716e6e;
+        margin: 5px auto;
+    }
+}
+
 
