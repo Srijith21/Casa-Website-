@@ -26,6 +26,7 @@ ul li{
     width: 90%;
     margin: auto;
   }
+/* <!-------------------------------------------------------------------------------------------------1. LANDING PAGE --> */
 /* <!--------------------------------------------------------------------------------header-bar --> */
 .header-bar{
     position: fixed;
@@ -960,8 +961,8 @@ h2.Landinghead{
     }
     .keyword{
         position: absolute;
-        top: 15px;
-        left: 10px;
+        top: 5px;
+        left: 60px;
         color: #8873EF;
         font-size: 20px;
         transform: rotate(-22deg);
@@ -1509,7 +1510,7 @@ h2.Landinghead{
 }
 
 /* <!------------------------------------------------------------------------------------------------------------------SERVICE OFFER --> */
-.ServiceOffer{
+#ServiceOffer{
     background-color: #FCDA69;
     height: auto;
     
@@ -1891,8 +1892,8 @@ h2.Landinghead{
     }
     .keyword.service{
         position: absolute;
-        top: 20px;
-        left: 100px;
+        top: 11px;
+        left: 80px;
     
     }
     .service-heading{
@@ -2042,7 +2043,7 @@ h2.Landinghead{
     .arrow-icon{
         display: flex;
         align-items: flex-end;
-        height: 50px;
+        height: 40px;
         width: 100%;
     
     }
@@ -2747,7 +2748,7 @@ h2.Landinghead{
         text-align: center;
     }
     .exp-head h6{
-        font-size: 20px;
+        font-size: 18px;
     }
     .exp-head p{
         font-size: 12px;
@@ -2841,7 +2842,7 @@ h2.Landinghead{
         text-align: center;
     }
     .exp-head h6{
-        font-size: 20px;
+        font-size: 18px;
     }
     .exp-head p{
         font-size: 12px;
@@ -3952,7 +3953,7 @@ h2.Landinghead{
 }
 
 /* <!-------------------------------------------------------------------------------------------- CONTACT DETAILS --> */
-.Contact{
+#Contact{
     background-color: #FCDA69;
     width: 100%;
     position: relative;
@@ -3976,6 +3977,15 @@ h2.Landinghead{
 }
 .contact-left{
     max-width: 50%;
+}
+
+element.style {
+}
+.keyword.contact {
+    position: absolute;
+    font-size: 13px;
+    top: 14px;
+    left: 75px;
 }
 .contact-head h2{
     font-size: 50px;
@@ -4076,6 +4086,12 @@ h2.Landinghead{
         width: 50%;
         margin: 30px 40px ; 
     }
+    .keyword.contact {
+        position: absolute;
+        font-size: 13px;
+        top: 15px;
+        left: 75px;
+    }
     .contact-email{
         display: flex;
         align-items: center;
@@ -4168,6 +4184,12 @@ h2.Landinghead{
         font-size: 50px;
         width: 50%;
         margin: 30px auto ; 
+    }
+    .keyword.contact {
+        position: absolute;
+        font-size: 13px;
+        top: 65px;
+        left: 230px;
     }
     .contact-email{
         display: flex;
@@ -4263,6 +4285,12 @@ h2.Landinghead{
         font-size: 40px;
         width: 90%;
         margin: 30px auto ; 
+    }
+    .keyword.contact {
+        position: absolute;
+        font-size: 13px;
+        top: 65px;
+        left: 50px;
     }
     .contact-email{
         display: flex;  
@@ -4559,6 +4587,12 @@ h2.Landinghead{
         margin: 30px auto ; 
         text-align: center;
     }
+    .keyword.contact {
+        position: absolute;
+        font-size: 13px;
+        top: 10px;
+        left: 30px;
+    }
     .contact-email{
         display: flex;  
         align-items: center;
@@ -4639,6 +4673,7 @@ h2.Landinghead{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        padding: 0;
     }
     .hr-line{
         content: "";    
@@ -4659,6 +4694,12 @@ h2.Landinghead{
         width: 90%;
         margin: 30px auto ; 
         text-align: center;
+    }
+    .keyword.contact {
+        position: absolute;
+        font-size: 13px;
+        top: 50px;
+        left: 60px;
     }
     .contact-email{
         display: flex;  
@@ -5435,7 +5476,6 @@ h2.Landinghead{
         border: none;
     }
 }
-
 /* .....................................................360px responsive --FOOTER--.......... */
 @media all and (max-width: 360px) {
     .footer{
@@ -5536,7 +5576,7 @@ h2.Landinghead{
         width: 50%;
     }
     .footer-bottom-left p{
-        font-size: 11px;
+        font-size: 9px;
         font-weight: 400;
         color:#000;
     }
@@ -5550,7 +5590,7 @@ h2.Landinghead{
     }
     .footer-bottom-ul li{
         width: 33%;
-        font-size: 11px;
+        font-size: 9px;
         font-weight: 500;
     }
     .footer-bottom-ul li button{
@@ -5560,9 +5600,7 @@ h2.Landinghead{
         border: none;
     }
 }
-
-
-/* .....................................................320px responsive.......... */
+/* .....................................................320px responsive --FOOTER--.......... */
 @media all and (max-width: 320px) {
     .footer{
         height: auto;
@@ -5658,7 +5696,6 @@ h2.Landinghead{
         align-items: center;
         height: 30px;
         margin: 15px auto;
-        /* background-color: rgb(122, 96, 96); */
     }
     .footer-bottom-left{
         width: 50%;
@@ -5689,3 +5726,4 @@ h2.Landinghead{
     }
 }
 
+/* <!-------------------------------------------------------------------------------------------------2. PROJECT PAGE --> */
