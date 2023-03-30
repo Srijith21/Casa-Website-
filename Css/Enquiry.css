@@ -1328,3 +1328,553 @@ option{
         border-radius: 10px;
     }   
 }
+
+/* <!-------------------------------------------------------------------------------------------------Contact Section in Enquirypage-> */
+#Contact{
+    background-color: #FCDA69;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.container.contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin:auto;
+    
+}
+.hr-line{
+    content: "";
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    height: 2px;
+    width: 90%;
+    background-color: #201c1c;
+}
+.contact-left{
+    max-width: 50%;
+}
+
+element.style {
+}
+.contact-head{
+    position: relative;
+}
+.contact-head h2{
+    font-size: 50px;
+    width: 50%;
+    margin: 30px 40px ;
+}
+
+.keyword.contact {
+    position: absolute;
+    font-size: 13px;
+    bottom: 0;
+    left: 0;
+}
+.contact-email{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 40px auto;
+    border-top: 1px solid #000;
+    padding: 30px 20px;
+}
+.contact-img{
+}
+.contact-location{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 40px auto;
+    border-top: 1px solid #000;
+    padding: 30px 20px;
+}
+.contact-subhead{
+    color: #000;
+}
+.contact-label{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+}
+.img-box{
+    margin-right: 50px;
+}
+.contact-right{
+    width: 50%;
+}
+.contact-interaction{
+    width: 100%;
+    height: 70%;
+    border: #000 1px solid;
+    border-radius: 50%;
+    border-bottom: 2px solid #000;
+    margin: 50px auto;
+}
+.contact-interaction-left{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-interaction-left span{
+    font-size: 25px;
+    font-weight: 600;
+}
+.contentbox{
+    margin: 50% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    border-bottom: #000 1px solid;
+}
+.handwave-img{
+    margin: auto 20px;
+}
+.arrow-img{
+    width: 100px;
+    height: 100px;
+}
+/* .....................................................1280px responsive -- CONTACT DETAILS--..........  */
+@media all and (max-width: 1280px) {
+    .Contact{
+        height: auto;
+        margin-top: 50px;
+        padding: 50px 0 0 0;
+        background-color: #FCDA69;
+        position: relative;
+    }
+    .container.contact{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .hr-line{
+        content: "";
+        position: absolute;
+        bottom: 100px;
+        left: 50px;
+        height: 2px;
+        width: 90%;
+        background-color: #201c1c;
+    }
+    .contact-left{
+        width: 50%;
+    }
+    .contact-head h2{
+        font-size: 50px;
+        width: 50%;
+        margin: 30px 40px ; 
+    }
+    .keyword.contact {
+        position: absolute;
+        font-size: 13px;
+        top: -15px;
+        left: 30px;
+    }
+    .contact-email{
+        display: flex;
+        align-items: center;
+        width: 80%;
+        margin: 40px auto;
+        border-top: 1px solid #000;
+        padding: 30px 20px;
+    }
+    .contact-img{
+    }
+    .contact-location{
+        display: flex;
+        align-items: center;
+        width: 80%;
+        margin: 40px auto;
+        border-top: 1px solid #000;
+        padding: 30px 20px;
+    }
+    .contact-subhead{
+        color: #000;
+    }
+    .contact-label{
+        font-size: 20px;
+        font-weight: 400;
+        color: #000;
+    }
+    .img-box{
+        margin-right: 50px;
+    }
+    .contact-right{
+        width: 50%;
+    }
+    .contact-interaction{
+        width: 100%;
+        height: 70%;
+        border: #000 1px solid;
+        border-radius: 50%;
+        border-bottom: 2px solid #000;
+        margin: 50px auto;
+    }
+    .contact-interaction-left{
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact-interaction-left span{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .contentbox{
+        margin: 50% auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
+        border-bottom: #000 1px solid;
+    }
+    .handwave-img{
+        margin: auto 20px;
+    }
+    .arrow-img{
+        width: 100px;
+        height: 100px;
+    }
+}
+/* .....................................................980px responsive -- CONTACT DETAILS--..........  */
+@media all and (max-width: 980px) {
+    .Contact{
+        height: auto;
+        margin-top: 50px;
+        padding: 50px 0 0 0;
+        background-color: #FCDA69;
+        position: relative;
+    }
+    .container.contact{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+    .hr-line{
+        content: "";
+        position: absolute;
+        bottom: 30px;
+        left: 50px;
+        height: 2px;
+        width: 90%;
+        background-color: #201c1c;
+    }
+    .contact-left{
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+    .contact-head h2{
+        font-size: 50px;
+        width: 100%;
+        margin: auto; 
+        text-align: center;
+    }
+    .keyword.contact {
+        position: absolute;
+        font-size: 13px;
+        top: -15px;
+        left: 30px;
+    }
+    .contact-email{
+        display: flex;
+        align-items: center;
+        width: 80%;
+        margin: 40px auto;
+        border-top: 1px solid #000;
+        padding: 30px 20px;
+    }
+    .contact-img{
+        width: 100px;
+        height: 50px;
+    }
+    .contact-location{
+        display: flex;
+        align-items: center;
+        width: 80%;
+        margin: 40px auto;
+        border-top: 1px solid #000;
+        padding: 10px;
+    }
+    .contact-subhead{
+        color: #000;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .contact-label{
+        font-size: 15px;
+        font-weight: 400;
+        color: #000;
+    }
+    .img-box{
+        margin-right: 50px;
+    }
+    .contact-right{
+        width: 80%;
+        margin: auto;
+    }
+    .contact-interaction{
+        width: 100%;
+        height: 70%;
+        border: #000 1px solid;
+        border-radius: 50%;
+        border-bottom: 2px solid #000;
+        margin: 50px auto;
+    }
+    .contact-interaction-left{
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact-interaction-left span{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .contentbox{
+        margin: 50% auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
+        border-bottom: #000 1px solid;
+    }
+    .handwave-img{
+        margin: auto 20px;
+    }
+    .arrow-img{
+        width: 100px;
+        height: 100px;
+    }
+}
+/* .....................................................640px responsive -- CONTACT DETAILS--..........  */
+
+@media all and (max-width: 640px) {
+    .Contact{
+        height: auto;
+        margin-top: 50px;
+        padding: 50px 0 0 0;
+        background-color: #FCDA69;
+        position: relative;
+    }
+    .container.contact{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+    .hr-line{
+        content: "";
+        position: absolute;
+        bottom: 30px;
+        height: 2px;
+        width: 75%;
+        background-color: #201c1c;
+    }
+    .contact-left{
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+    .contact-head h2{
+        font-size: 30px;
+        width: 100%;
+        margin: auto; 
+        text-align: center;
+    }
+    .keyword.contact {
+        position: absolute;
+        font-size: 13px;
+        top: -25px;
+        left: 5px;
+    }
+    .contact-email{
+        display: flex;
+        align-items: center;
+        width: 80%;
+        margin: 40px auto;
+        border-top: 1px solid #000;
+        padding: 30px 20px;
+    }
+    .contact-img{
+        width: 50px;
+        height: 50px;
+    }
+    .contact-location{
+        display: flex;
+        align-items: center;
+        width: 80%;
+        margin: 40px auto;
+        border-top: 1px solid #000;
+        padding: 10px;
+    }
+    .contact-subhead{
+        color: #000;
+        font-size: 13px;
+    }
+    .contact-label{
+        font-size: 10px;
+        font-weight: 400;
+        color: #000;
+    }
+    .img-box{
+        margin-right: 10px;
+    }
+    .contact-right{
+        width: 80%;
+        margin: auto;
+    }
+    .contact-interaction{
+        width: 100%;
+        height: 70%;
+        border: #000 1px solid;
+        border-radius: 50%;
+        border-bottom: 2px solid #000;
+        margin: 50px auto;
+    }
+    .contact-interaction-left{
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact-interaction-left span{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .contentbox{
+        margin: 50% auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
+        border-bottom: #000 1px solid;
+    }
+    .handwave-img{
+        margin: auto 20px;
+    }
+    .arrow-img{
+        width: 100px;
+        height: 100px;
+    }
+}
+/* .....................................................360px responsive -- CONTACT DETAILS--..........  */
+
+@media all and (max-width: 360px) {
+    .Contact{
+        height: auto;
+        margin-top: 50px;
+        padding: 50px 0 0 0;
+        background-color: #FCDA69;
+        position: relative;
+    }
+    .container.contact{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+    .hr-line{
+        content: "";
+        position: absolute;
+        bottom: 30px;
+        height: 2px;
+        width: 75%;
+        background-color: #201c1c;
+    }
+    .contact-left{
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+    .contact-head h2{
+        font-size: 22px;
+        width: 100%;
+        margin: auto; 
+        text-align: center;
+    }
+    .keyword.contact {
+        position: absolute;
+        font-size: 9px;
+        top: -25px;
+        left: 5px;
+    }
+    .contact-email{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin: 40px auto;
+        border-top: 1px solid #000;
+        padding:10px;
+    }
+    .contact-img{
+        width: 50px;
+        height: 50px;
+    }
+    .contact-location{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin: 40px auto;
+        border-top: 1px solid #000;
+        padding: 10px;
+    }
+    .location-description{
+        text-align: center;
+    }
+    .email-description{
+        text-align: center;
+    }
+    .contact-subhead{
+        color: #000;
+        font-weight: bold;
+        font-size: 13px;
+        text-align: center;
+    }
+    .contact-label{
+        font-size: 10px;
+        font-weight: 400;
+        color: #000;
+        text-align: center;
+    }
+    .img-box{
+        margin-right: 10px;
+    }
+    .contact-right{
+        width: 80%;
+        margin: auto;
+    }
+    .contact-interaction{
+        width: 100%;
+        height: 70%;
+        border: #000 1px solid;
+        border-radius: 50%;
+        border-bottom: 2px solid #000;
+        margin: 50px auto;
+    }
+    .contact-interaction-left{
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact-interaction-left span{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .contentbox{
+        margin: 50% auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
+        border-bottom: #000 1px solid;
+    }
+    .handwave-img{
+        margin: auto 20px;
+    }
+    .arrow-img{
+        width: 50px;
+        height: 70px;
+    }
+}
