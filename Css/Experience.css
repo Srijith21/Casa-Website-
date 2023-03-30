@@ -15,9 +15,25 @@ a{
     font-family: Poppins-Regular;
     text-decoration: none;
 }
-.abcd{
-    margin-top: 300px;
-    background-color: rgb(48, 37, 201);
+p{
+    font-family: Poppins-Regular;
+    line-height: 1.5rem;
+}
+ul li{
+    list-style: none;
+}
+.container {
+    width: 90%;
+    margin: auto;
+  }
+.keyword{
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    color: #8873EF;
+    font-size: 20px;
+    transform: rotate(-22deg);
+    font-family: Poppins-Regular;
 }
 /* <!--------------------------------------------------------------------------------header-bar --> */
 .header-bar{
@@ -158,8 +174,6 @@ a{
         padding: 10px 30px;
     }   
 }
-
-
 /* ------------------------------------------------------------------768px responsive-----Header-----*/
 @media all and (max-width: 768px) {
     .header-bar{
@@ -309,8 +323,6 @@ a{
         padding: 10px 30px;
     }   
 }
-
-
 /* ------------------------------------------------------------------480px responsive-----Header-----*/
 
 @media all and (max-width: 480px) {
@@ -460,7 +472,6 @@ a{
     }   
 }
 /* ------------------------------------------------------------------320px responsive-----Header-----*/
-
 @media all and (max-width: 320px) {
     .header-bar{
         position: fixed;
@@ -532,4 +543,605 @@ a{
         border-radius: 5px;
         padding: 3px 8px;
     }   
+}
+
+/* ...........................................................................................................--Experience Spotlight--.. */
+#Experience_spotlight{
+    background-color: #FCDA69;
+    height: auto;
+}
+.container.Experience_spotlight{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.left-spotlight{
+    width: 40%;
+    position: relative;
+}
+.left-spotlight-head{
+    font-size: 55px;
+}
+.keyword.Hello{
+    position: absolute;
+    top: -5 px;
+    left: 5px;
+}
+/* .....................................................1280px responsive -- Experience Spotlight--..........  */
+@media all and (max-width: 1280px){
+    #Experience_spotlight{
+        background-color: #FCDA69;
+        height: auto;
+    }
+    .container.Experience_spotlight{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 0;
+    }
+    .left-spotlight{
+        width: 50%;
+        position: relative;
+    }
+    .left-spotlight-head{
+        font-size: 55px;
+    }
+    .keyword.Hello{
+        position: absolute;
+        top: -5 px;
+        left: 5px;
+    }
+
+}
+/* .....................................................980px responsive -- Experience Spotlight--..........  */
+@media all and (max-width: 980px) {
+    .Experience_spotlight{
+        background-color: #FCDA69;
+        max-height: 60vh;
+    }
+    .container.Experience_spotlight{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 10px;
+    }
+    .left-spotlight{
+        width: 60%;
+        position: relative;
+    }
+    .left-spotlight-head{
+        font-size: 50px;
+    }
+    .keyword.Hello{
+        position: absolute;
+        top: -5 px;
+        left: 5px;
+    }
+    .right-spotlight{
+        width: auto;
+    }
+    .seal{
+        width: 155px;
+        height: 200px;
+    }
+}
+
+/* .....................................................640px responsive -- Experience Spotlight--..........  */
+@media all and (max-width: 640px) {
+    .Experience_spotlight{
+        background-color: #FCDA69;
+        max-height: 60vh;
+    }
+    .container.Experience_spotlight{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 10px;
+    }
+    .left-spotlight{
+        width: 70%;
+        position: relative;
+    }
+    .left-spotlight-head{
+        font-size: 42px;
+    }
+    .keyword.Hello{
+        position: absolute;
+        top: -5px;
+        left: 5px;
+        font-size: 15px;
+    }
+    .right-spotlight{
+        width: auto;
+    }
+    .seal{
+        width: 140px;
+        height: 180px;
+    }
+}
+/* .....................................................480px responsive -- Experience Spotlight--..........  */
+@media all and (max-width: 480px) {
+    .Experience_spotlight{
+        background-color: #FCDA69;
+        max-height: 60vh;
+    }
+    .container.Experience_spotlight{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        padding: auto;
+    }
+    .left-spotlight{
+        width: 80%;
+        position: relative;
+    }
+    .right-spotlight{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-spotlight img{
+        width: 50%;
+        margin: auto;
+    }
+    .left-spotlight-head{
+        font-size: 27px;
+    }
+    .landingtext{
+        font-size: 9px;
+    }
+    .keyword.Hello{
+        position: absolute;
+        top: -5 px;
+        left: 5px;
+        font-size: 12px;
+    }
+}
+
+/* .....................................................320px responsive -- Experience Spotlight--..........  */
+@media all and (max-width: 320px) {
+    .Experience_spotlight{
+        background-color: #FCDA69;
+        max-height: 60vh;
+    }
+    .container.Experience_spotlight{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        padding: auto;
+    }
+    .left-spotlight{
+        width: 50%;
+        position: relative;
+    }
+    .right-spotlight{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-spotlight img{
+        width: 100%;
+        margin: auto;
+    }
+    .left-spotlight-head{
+        font-size: 25px;
+    }
+    .landingtext{
+        font-size: 8px;
+    }
+    .keyword.Hello{
+        position: absolute;
+        top: -5 px;
+        left: 5px;
+    }
+}
+
+
+/* ...........................................................................................................--Skill--.. */
+.skills.SkillsSection{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.skills-smallhead{
+    font-size: 30px;
+}
+.skills-list{
+    width: 100%;
+    border-top: 1px solid #000;
+}
+.skills-list-ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+.skill-items{
+    width: 32%;
+    margin: 15px auto;
+    text-align: center;
+}
+.skill-items img{
+    display: block;
+    margin: 5px  auto;
+}
+.skill-items span{
+    text-align: center;
+}
+
+.experience.SkillsSection{
+    margin-bottom: 50px;
+}
+.experience-tab{
+    border-top: 1px solid rgba(179, 175, 175,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.time-period{
+    width: 30%;
+    font-size: 16px;
+    font-weight: bold;
+}
+.exp-head{
+    width: auto;
+    padding: 10px 5px;
+}
+.exp-head h6{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0;
+    margin:10px  auto;
+}
+.exp-head p{
+    margin:10px  auto;
+    color: #918c8c;;
+}
+
+/* .....................................................980px responsive -- Skills & Experience --..........  */
+@media all and (max-width: 980px) {
+    .skills.SkillsSection{
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .skills-smallhead{
+        font-size: 30px;
+    }
+    .skills-list{
+        width: 100%;
+        border-top: 1px solid #000;
+    }
+    .skills-list-ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+    }
+    .skill-items{
+        width: 32%;
+        margin: 15px auto;
+        text-align: center;
+    }
+    .skill-items img{
+        display: block;
+        margin: 5px  auto;
+    }
+    .skill-items span{
+        text-align: center;
+    }
+    
+    .experience.SkillsSection{
+        margin-bottom: 50px;
+    }
+    .experience-tab{
+        border-top: 1px solid rgba(179, 175, 175,0.6);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .time-period{
+        width: 30%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .exp-head{
+        width: auto;
+        padding: 10px 5px;
+    }
+    .exp-head h6{
+        font-weight: bold;
+        font-size: 18px;
+        padding: 0;
+        margin:10px  auto;
+    }
+    .exp-head p{
+        margin:10px  auto;
+        color: #918c8c;
+        font-size: 11px;
+    }
+}
+/* .....................................................640px responsive -- Skills & Experience --..........  */
+@media all and (max-width: 640px) {
+    .skills.SkillsSection{
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .skills-smallhead{
+        font-size: 30px;
+    }
+    .skills-list{
+        width: 100%;
+        border-top: 1px solid #000;
+    }
+    .skills-list-ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+    .skill-items{
+        width: 30%;
+        margin: auto;
+        text-align: center;
+    }
+    .skill-items img{
+        display: block;
+        margin: 5px  auto;
+        width: 50px;
+        height: 100px;
+    }
+    .skill-items span{
+        text-align: center;
+    }
+    
+    .experience.SkillsSection{
+        margin-bottom: 50px;
+    }
+    .experience-tab{
+        border-top: 1px solid rgba(179, 175, 175,0.6);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .time-period{
+        width: 45%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .exp-head{
+        width: auto;
+        padding: 10px 5px;
+    }
+    .exp-head h6{
+        font-weight: bold;
+        font-size: 18px;
+        padding: 0;
+        margin:10px  auto;
+    }
+    .exp-head p{
+        margin:10px  auto;
+        color: #918c8c;
+        font-size: 11px;
+    }
+}
+/* .....................................................480px responsive -- Skills & Experience --..........  */
+@media all and (max-width: 480px) {
+    .skills.SkillsSection{
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .skills-smallhead{
+        font-size: 30px;
+        text-align: center;
+    }
+    .skills-list{
+        width: 100%;
+        border-top: 1px solid #000;
+    }
+    .skills-list-ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+    .skill-items{
+        width: 48%;
+        margin: auto;
+        text-align: center;
+    }
+    .skill-items img{
+        display: block;
+        margin: 5px  auto;
+        width: 50px;
+        height: 100px;
+    }
+    .skill-items span{
+        text-align: center;
+    }
+    
+    .experience.SkillsSection{
+        margin-bottom: 50px;
+    }
+    .experience-tab{
+        border-top: 1px solid rgba(179, 175, 175,0.6);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .time-period{
+        width: 25%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .exp-head{
+        width: 70%;
+        padding: 10px 5px;
+    }
+    .exp-head h6{
+        font-weight: bold;
+        font-size: 18px;
+        padding: 0;
+        margin:10px  auto;
+    }
+    .exp-head p{
+        margin:10px  auto;
+        color: #918c8c;
+        font-size: 11px;
+    }
+}
+/* .....................................................360px responsive -- Skills & Experience --..........  */
+
+@media all and (max-width: 360px) {
+    .skills.SkillsSection{
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .skills-smallhead{
+        font-size: 30px;
+        text-align: center;
+    }
+    .skills-list{
+        width: 100%;
+        border-top: 1px solid #000;
+    }
+    .skills-list-ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+    .skill-items{
+        width: 48%;
+        margin: auto;
+        text-align: center;
+    }
+    .skill-items img{
+        display: block;
+        margin: 5px  auto;
+        width: 50px;
+        height: 100px;
+    }
+    .skill-items span{
+        text-align: center;
+    }
+    
+    .experience.SkillsSection{
+        margin-bottom: 50px;
+    }
+    .experience-tab{
+        border-top: 1px solid rgba(179, 175, 175,0.6);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .time-period{
+        width: 25%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .exp-head{
+        width: 70%;
+        padding: 10px 5px;
+    }
+    .exp-head h6{
+        font-weight: bold;
+        font-size: 18px;
+        padding: 0;
+        margin:10px  auto;
+    }
+    .exp-head p{
+        margin:10px  auto;
+        color: #918c8c;
+        font-size: 11px;
+    }
+}
+/* .....................................................320px responsive -- Skills & Experience --..........  */
+
+@media all and (max-width: 320px) {
+    .skills.SkillsSection{
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .skills-smallhead{
+        font-size: 30px;
+        text-align: center;
+    }
+    .skills-list{
+        width: 100%;
+        border-top: 1px solid #000;
+    }
+    .skills-list-ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+    .skill-items{
+        width: 48%;
+        margin: auto;
+        text-align: center;
+    }
+    .skill-items img{
+        display: block;
+        margin: 5px  auto;
+        width: 50px;
+        height: 100px;
+    }
+    .skill-items span{
+        text-align: center;
+    }
+    
+    .experience.SkillsSection{
+        margin-bottom: 50px;
+    }
+    .experience-tab{
+        border-top: 1px solid rgba(179, 175, 175,0.6);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .time-period{
+        width: 25%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .exp-head{
+        width: 70%;
+        padding: 10px 5px;
+    }
+    .exp-head h6{
+        font-weight: bold;
+        font-size: 18px;
+        padding: 0;
+        margin:10px  auto;
+    }
+    .exp-head p{
+        margin:10px  auto;
+        color: #918c8c;
+        font-size: 11px;
+    }
 }
