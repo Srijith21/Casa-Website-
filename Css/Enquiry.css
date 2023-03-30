@@ -743,3 +743,588 @@ ul li{
         height: 100px;
     }
 }
+/* <!------------------------------------------------------------------------------------------------------------------Enquiry_Form--> */
+.enquiry-head-sec{
+    width: 40%;
+    margin: 50px auto;
+}
+.enquiryHead{
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+}
+.enquiryform-top{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 50px auto;
+
+}
+.enquiry-inputs{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 20px auto;
+    padding-bottom: 50px;
+    border-bottom: #555 1px solid;
+}
+.inputBoxes{
+    width: 45%;
+    margin: 20px;
+}
+.inputBoxes.textbox{
+    height: 100px;
+    width: 100%;
+    margin: 20px;
+    font-size: 15px;
+}
+.inputcontainer{
+    border: #555 1px solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.inputcontainer:hover{
+    border: #FCDA69 1px solid;
+
+}
+label{
+    color:#7d7c7c;
+}
+.flag{
+    width: 5%;
+    height: 5%;
+    border-radius: 50%;
+    margin: auto 5px;
+}
+input{
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.project-selectors{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 20px auto;
+    padding-top: 50px;
+}
+.SelectContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 45%;
+    margin: 10px auto;
+}
+
+.selectbox{
+    display: flex;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px auto;;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.selectbox:hover{
+    border: #FCDA69 1px solid;
+
+}
+option{
+    color: rgb(12, 2, 2);
+    font-size: 15px;
+}
+.submit-button{
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px 100px ;
+    
+}
+.formbutton{
+    padding: 15px 80px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* .....................................................980px responsive..........  */
+@media all and (max-width: 980px) {
+    .enquiry-head-sec{
+        width: 40%;
+        margin: 50px auto;
+    }
+    .enquiryHead{
+        font-size: 40px;
+        text-align: center;
+        color: #000;
+    }
+    .enquiryform-top{
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 50px auto;
+    
+    }
+    .enquiry-inputs{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 20px auto;
+        padding-bottom: 50px;
+        border-bottom: #555 1px solid;
+    }
+    .inputBoxes{
+        width: 45%;
+        margin: 10px;
+    }
+    .inputBoxes.textbox{
+        height: 100px;
+        width: 100%;
+        margin: 20px;
+        font-size: 15px;
+    }
+    .inputcontainer{
+        border: #555 1px solid;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+    }
+    .inputcontainer:hover{
+        border: #FCDA69 1px solid;
+    
+    }
+    label{
+        color:#7d7c7c;
+    }
+    .flag{
+        width: 5%;
+        height: 5%;
+        border-radius: 50%;
+        margin: auto 5px;
+    }
+    input{
+        border: none;
+        border-radius: 10px;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+    
+    }
+    .project-selectors{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 20px auto;
+        padding-top: 50px;
+    }
+    .SelectContainer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 45%;
+        margin: 10px auto;
+    }
+    
+    .selectbox{
+        display: flex;
+        border-radius: 10px;
+        width: 100%;
+        margin: 10px auto;;
+        padding: 20px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .selectbox:hover{
+        border: #FCDA69 1px solid;
+    
+    }
+    option{
+        color: rgb(12, 2, 2);
+        font-size: 15px;
+    }
+    .submit-button{
+        display: flex;
+        justify-content: flex-end;
+        margin: 50px 100px ;
+        
+    }
+    .formbutton{
+        padding: 15px 80px;
+        background-color: #000;
+        color: #fff;
+        border-radius: 10px;
+    }   
+}
+
+
+/* .....................................................640px responsive..........  */
+@media all and (max-width: 640px) {
+    .enquiry-head-sec{
+        width: 80%;
+        margin: 30px auto;
+    }
+    .enquiryHead{
+        font-size: 35px;
+        text-align: center;
+        color: #000;
+    }
+    .enquiryform-top{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 40px auto;
+    
+    }
+    .enquiry-inputs{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 20px auto;
+        padding-bottom: 50px;
+        border-bottom: #555 1px solid;
+    }
+    .inputBoxes{
+        width: 45%;
+        margin: 10px;
+    }
+    .inputBoxes.textbox{
+        height: 100px;
+        width: 100%;
+        margin: 20px;
+        font-size: 15px;
+    }
+    .inputcontainer{
+        border: #555 1px solid;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+    }
+    .inputcontainer:hover{
+        border: #FCDA69 1px solid;
+    
+    }
+    .inputcontainer span{
+        font-size: 12px;
+    }
+    label{
+        color:#7d7c7c;
+        font-size: 15px;
+    }
+    .flag{
+        width: 5%;
+        height: 5%;
+        border-radius: 50%;
+        margin: auto 5px;
+    }
+    input{
+        border: none;
+        border-radius: 10px;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+    
+    }
+    .project-selectors{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 20px auto;
+        padding-top: 50px;
+    }
+    .SelectContainer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 45%;
+        margin: 10px auto;
+    }
+    
+    .selectbox{
+        display: flex;
+        border-radius: 10px;
+        width: 100%;
+        margin: 10px auto;;
+        padding: 20px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .selectbox:hover{
+        border: #FCDA69 1px solid;
+    
+    }
+    option{
+        color: rgb(12, 2, 2);
+        font-size: 15px;
+    }
+    .submit-button{
+        display: flex;
+        justify-content: flex-end;
+        margin: 50px 100px ;
+        
+    }
+    .formbutton{
+        padding: 15px 80px;
+        background-color: #000;
+        color: #fff;
+        border-radius: 10px;
+    }   
+}
+
+
+
+/* .....................................................480px responsive..........  */
+@media all and (max-width: 480px) {
+    .enquiry-head-sec{
+        width: 80%;
+        margin: 30px auto;
+    }
+    .enquiryHead{
+        font-size: 35px;
+        text-align: center;
+        color: #000;
+    }
+    .enquiryform-top{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 40px auto;
+    
+    }
+    .enquiry-inputs{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 20px auto;
+        padding-bottom: 50px;
+        border-bottom: #555 1px solid;
+    }
+    .inputBoxes{
+        width: 45%;
+        margin: 10px;
+    }
+    .inputBoxes.textbox{
+        height: 100px;
+        width: 100%;
+        margin: 20px;
+        font-size: 15px;
+    }
+    .inputcontainer{
+        border: #555 1px solid;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+    }
+    .inputcontainer:hover{
+        border: #FCDA69 1px solid;
+    
+    }
+    .inputcontainer span{
+        font-size: 12px;
+    }
+    label{
+        color:#7d7c7c;
+        font-size: 15px;
+    }
+    .flag{
+        width: 5%;
+        height: 5%;
+        border-radius: 50%;
+        margin: auto 5px;
+    }
+    input{
+        border: none;
+        border-radius: 10px;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+    
+    }
+    .project-selectors{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 20px auto;
+        padding-top: 50px;
+    }
+    .SelectContainer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 45%;
+        margin: 10px auto;
+    }
+    
+    .selectbox{
+        display: flex;
+        border-radius: 10px;
+        width: 100%;
+        margin: 10px auto;;
+        padding: 20px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .selectbox:hover{
+        border: #FCDA69 1px solid;
+    
+    }
+    option{
+        color: rgb(12, 2, 2);
+        font-size: 15px;
+    }
+    .submit-button{
+        display: flex;
+        justify-content: center;
+        margin: 50px 100px ;
+        
+    }
+    .formbutton{
+        padding: 15px 80px;
+        background-color: #000;
+        color: #fff;
+        border-radius: 10px;
+    }   
+}
+
+/* .....................................................360px responsive..........  */
+@media all and (max-width: 360px) {
+    .enquiry-head-sec{
+        width: 80%;
+        margin: 30px auto;
+    }
+    .enquiryHead{
+        font-size: 35px;
+        text-align: center;
+        color: #000;
+    }
+    .enquiryform-top{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 40px auto;
+    
+    }
+    .enquiry-inputs{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 20px auto;
+        padding-bottom: 50px;
+        border-bottom: #555 1px solid;
+    }
+    .inputBoxes{
+        width: 40%;
+        margin: 10px;
+    }
+    .inputBoxes.textbox{
+        height: 100px;
+        width: 100%;
+        margin: 20px;
+        font-size: 15px;
+    }
+    .inputcontainer{
+        border: #555 1px solid;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+    }
+    .inputcontainer:hover{
+        border: #FCDA69 1px solid;
+    
+    }
+    .inputcontainer span{
+        font-size: 12px;
+    }
+    label{
+        color:#7d7c7c;
+        font-size: 15px;
+    }
+    .flag{
+        width: 5%;
+        height: 5%;
+        border-radius: 50%;
+        margin: auto 5px;
+    }
+    input{
+        border: none;
+        border-radius: 10px;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    
+    }
+    input::placeholder{
+        font-size: 8px;
+    }
+    .project-selectors{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 20px auto;
+        padding-top: 50px;
+    }
+    .SelectContainer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 45%;
+        margin: 10px auto;
+    }
+    
+    .selectbox{
+        display: flex;
+        border-radius: 10px;
+        width: 100%;
+        margin: 10px auto;;
+        padding:10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .selectbox:hover{
+        border: #FCDA69 1px solid;
+    
+    }
+    option{
+        color: rgb(12, 2, 2);
+        font-size: 15px;
+    }
+    .submit-button{
+        display: flex;
+        justify-content: center;
+        margin: 50px 100px ;
+        
+    }
+    .formbutton{
+        padding: 15px 80px;
+        background-color: #000;
+        color: #fff;
+        border-radius: 10px;
+    }   
+}
