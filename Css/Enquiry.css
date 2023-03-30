@@ -1668,7 +1668,8 @@ element.style {
         position: absolute;
         bottom: 30px;
         height: 2px;
-        width: 75%;
+        width: 80%;
+        margin: auto;
         background-color: #201c1c;
     }
     .contact-left{
@@ -1876,5 +1877,961 @@ element.style {
     .arrow-img{
         width: 50px;
         height: 70px;
+    }
+}
+
+
+/* <!--------------------------------------------------------------------------------------------FOOTER--> */
+.footer{
+    height: 40vh;
+    background-color:rgba(255, 255, 255, 0.81);
+    
+}
+.container.footer{
+    margin:  auto;
+    
+}
+.footer-top-left{
+    width: 40%;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(179, 175, 175,0.6);
+    padding-bottom: 40px;
+}
+.footer-top-left{
+    width: 40%;
+    padding:0 120px 0 0;
+}
+.footer-logo{
+    margin: 15px auto;
+}
+.footer-top-right{
+    width: 50%;
+}
+.footer-top-right-ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+}   
+.footer-top-right-ul-li{
+}
+.li-item-head{
+    font-size: 18px;
+    font-weight: 800;
+    margin: 18px 0;
+}
+.items{
+    margin: 15px 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+.footer-social-ul{
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+    padding: 0;
+}
+.phonenumber{
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+}
+.CallIcon{
+    width: 25px;
+    height: 20px;
+}
+.footer-social-ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 23%;
+    margin: 10px auto;
+}
+.footer-social-ul li button{
+    border: none;
+}
+.social-img{
+    width: 50px;
+    height: 30px;
+    margin: auto;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    margin: 15px auto;
+}
+.footer-bottom-left{
+    width: 70%;
+}
+.footer-bottom-left p{
+    font-size: 15px;
+    font-weight: 600;
+    color:#000;
+}
+.footer-bottom-right{
+    width: 20%;
+}
+.footer-bottom-ul{
+    display: flex;
+    width: 100%;
+    
+}
+.footer-bottom-ul li{
+    width: 33%;
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer-bottom-ul li button{
+    width: 33%;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+}
+
+/* .....................................................1280px responsive --FOOTER--..........  */
+@media all and (max-width: 1280px){
+    .footer{
+        height: 40vh;
+        background-color:rgba(255, 255, 255, 0.81);
+        
+    }
+    .container.footer{
+        margin:  auto;
+        
+    }
+    .footer-top-left{
+        width: 40%;
+    }
+    .footer-top{
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid rgba(179, 175, 175,0.6);
+        padding-bottom: 40px;
+    }
+    .footer-top-left{
+        width: 40%;
+        padding:0 120px 0 0;
+    }
+    .footer-logo{
+        margin: 15px auto;
+    }
+    .footer-top-right{
+        width: 50%;
+    }
+    .footer-top-right-ul{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0;
+    }   
+    .footer-top-right-ul-li{
+    }
+    .li-item-head{
+        font-size: 18px;
+        font-weight: 800;
+        margin: 18px 0;
+    }
+    .items{
+        margin: 15px 0;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .footer-social-ul{
+        display: flex;
+        width: 100%;
+        margin: 20px auto;
+        padding: 0;
+    }
+    .phonenumber{
+        display: flex;
+        align-items: center;
+        margin: 20px auto;
+    }
+    .CallIcon{
+        width: 25px;
+        height: 20px;
+    }
+    .footer-social-ul li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 23%;
+        margin: 10px auto;
+    }
+    .footer-social-ul li button{
+        border: none;
+    }
+    .social-img{
+        width: 50px;
+        height: 30px;
+        margin: auto;
+    }
+    .footer-bottom{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 30px;
+        margin: 15px auto;
+    }
+    .footer-bottom-left{
+        width: 70%;
+    }
+    .footer-bottom-left p{
+        font-size: 15px;
+        font-weight: 600;
+        color:#000;
+    }
+    .footer-bottom-right{
+        width: 20%;
+    }
+    .footer-bottom-ul{
+        display: flex;
+        width: 100%;
+        
+    }
+    .footer-bottom-ul li{
+        width: 33%;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .footer-bottom-ul li button{
+        width: 33%;
+        font-size: 15px;
+        font-weight: 600;
+        border: none;
+    }
+}
+/* .....................................................980px responsive --FOOTER--..........  */
+@media all and (max-width: 980px){
+    .footer{
+        height: 40vh;
+        background-color:rgba(255, 255, 255, 0.81);
+        
+    }
+    .container.footer{
+        margin:  auto;
+        
+    }
+    .footer-top-left{
+        width: 40%;
+    }
+    .footer-top{
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid rgba(179, 175, 175,0.6);
+        padding-bottom: 40px;
+    }
+    .footer-top-left{
+        width: 40%;
+        padding:0 120px 0 0;
+    }
+    .footer-logo{
+        margin: 15px auto;
+    }
+    .footer-top-right{
+        width: 50%;
+    }
+    .footer-top-right-ul{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0;
+    }   
+    .footer-top-right-ul-li{
+    }
+    .li-item-head{
+        font-size: 18px;
+        font-weight: 800;
+        margin: 18px 0;
+    }
+    .items{
+        margin: 15px 0;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .footer-social-ul{
+        display: flex;
+        width: 100%;
+        margin: 20px auto;
+        padding: 0;
+    }
+    .phonenumber{
+        display: flex;
+        align-items: center;
+        margin: 20px auto;
+    }
+    .number{
+        font-size: 13px;
+    }
+    .CallIcon{
+        width: 25px;
+        height: 20px;
+    }
+    .footer-social-ul li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 23%;
+        margin: 10px auto;
+    }
+    .footer-social-ul li button{
+        border: none;
+    }
+    .social-img{
+        width: 40px;
+        height: 25px;
+        margin: auto;
+    }
+    .footer-bottom{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 30px;
+        margin: 15px auto;
+    }
+    .footer-bottom-left{
+        width: 70%;
+    }
+    .footer-bottom-left p{
+        font-size: 15px;
+        font-weight: 600;
+        color:#000;
+    }
+    .footer-bottom-right{
+        width: 20%;
+    }
+    .footer-bottom-ul{
+        display: flex;
+        width: 100%;
+        
+    }
+    .footer-bottom-ul li{
+        width: 33%;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .footer-bottom-ul li button{
+        width: 33%;
+        font-size: 15px;
+        font-weight: 600;
+        border: none;
+    }
+}
+/* .....................................................768px responsive --FOOTER--..........  */
+@media all and (max-width: 768px) {
+    .footer{
+        height: auto;
+        background-color:rgba(255, 255, 255, 0.81);
+        
+    }
+    .container.footer{
+        margin:  auto;
+        
+    }
+    .footer-top-left{
+        width: 40%;
+    }
+    .footer-top{
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 1px solid rgba(179, 175, 175,0.6);
+        padding-bottom: 40px;
+    }
+    .footer-top-left{
+        width: 90%;
+        margin: auto;
+        padding: 0;
+        text-align: center;
+    }
+    .footer-logo{
+        margin: 15px auto;
+    }
+    .footer-top-right{
+        width: 90%;
+    }
+    .footer-top-right-ul{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0;
+    }   
+    .footer-top-right-ul-li{
+    }
+    .li-item-head{
+        font-size: 18px;
+        font-weight: 800;
+        margin: 18px 0;
+    }
+    .items{
+        margin: 15px 0;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .footer-social-ul{
+        display: flex;
+        text-align: center;
+        width: 100%;
+        margin: 20px auto;
+        padding: 0;
+    }
+    .phonenumber{
+        display: flex;
+        align-items: center;
+        margin: 20px auto;
+    }
+    .CallIcon{
+        width: 25px;
+        height: 20px;
+    }
+    .footer-social-ul li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 23%;
+        margin: 10px auto;
+    }
+    .footer-social-ul li button{
+        border: none;
+    }
+    .social-img{
+        width: 40px;
+        height: 25px;
+        margin: auto;
+    }
+    .footer-bottom{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 30px;
+        margin: 15px auto;
+        /* background-color: rgb(122, 96, 96); */
+    }
+    .footer-bottom-left{
+        width: 50%;
+    }
+    .footer-bottom-left p{
+        font-size: 15px;
+        font-weight: 600;
+        color:#000;
+    }
+    .footer-bottom-right{
+        width: 50%;
+    }
+    .footer-bottom-ul{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        
+    }
+    .footer-bottom-ul li{
+        width: 33%;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .footer-bottom-ul li button{
+        width: 33%;
+        font-size: 15px;
+        font-weight: 600;
+        border: none;
+    }
+    
+}
+/* .....................................................640px responsive --FOOTER--..........  */
+@media all and (max-width: 640px) {
+    .footer{
+        height: auto;
+        background-color:rgba(255, 255, 255, 0.81);
+        
+    }
+    .container.footer{
+        margin:  auto;
+        
+    }
+    .footer-top-left{
+        width: 40%;
+    }
+    .footer-top{
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 1px solid rgba(179, 175, 175,0.6);
+        padding-bottom: 40px;
+    }
+    .footer-top-left{
+        width: 90%;
+        margin: auto;
+        padding: 0;
+        text-align: center;
+    }
+    .footer-logo{
+        margin: 15px auto;
+    }
+    .footer-top-right{
+        width: 90%;
+        margin: auto;
+        padding: 0;
+    }
+    .footer-top-right-ul{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0;
+    }   
+    .footer-top-right-ul-li{
+    }
+    .li-item-head{
+        font-size: 18px;
+        font-weight: 800;
+        margin: 18px 0;
+    }
+    .items{
+        margin: 15px 0;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .footer-social-ul{
+        display: flex;
+        text-align: center;
+        width: 100%;
+        margin: 20px auto;
+        padding: 0;
+    }
+    .phonenumber{
+        display: flex;
+        align-items: center;
+        margin: 20px auto;
+    }
+    .CallIcon{
+        width: 25px;
+        height: 20px;
+    }
+    .footer-social-ul li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 23%;
+        margin: 10px auto;
+    }
+    .footer-social-ul li button{
+        border: none;
+    }
+    .social-img{
+        width: 40px;
+        height: 25px;
+        margin: auto;
+    }
+    .footer-bottom{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 30px;
+        margin: 15px auto;
+        /* background-color: rgb(122, 96, 96); */
+    }
+    .footer-bottom-left{
+        width: 50%;
+    }
+    .footer-bottom-left p{
+        font-size: 12px;
+        font-weight: 600;
+        color:#000;
+    }
+    .footer-bottom-right{
+        width: 50%;
+    }
+    .footer-bottom-ul{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+    .footer-bottom-ul li{
+        width: 33%;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .footer-bottom-ul li button{
+        width: 33%;
+        font-size: 15px;
+        font-weight: 600;
+        border: none;
+    }
+    
+}
+/* .....................................................480px responsive --FOOTER--.......... */
+@media all and (max-width: 480px) {
+    .footer{
+        height: auto;
+        background-color:rgba(255, 255, 255, 0.81);
+        
+    }
+    .container.footer{
+        margin:  auto;
+        
+    }
+    .footer-top-left{
+        width: 40%;
+    }
+    .footer-top{
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 1px solid rgba(179, 175, 175,0.6);
+        padding-bottom: 40px;
+    }
+    .footer-top-left{
+        width: 100%;
+        padding: 10px;
+        display: block;
+    }
+    .footer-logo{
+        width: 25%; 
+        margin: auto;
+    }
+    .footer-top-left p{
+        line-height: 1rem;
+        font-size: 11px;
+        margin: 5px;
+    }
+    .footer-top-right{
+        width: 90%;
+        margin: auto;
+    }
+    .footer-top-right-ul{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }   
+    .footer-top-right-ul-li{
+        width: 30%;
+    }
+    .li-item-head{
+        font-size: 15px;
+        font-weight: 800;
+        margin: 18px 0;
+    }
+    .items{
+        margin: 15px 0;
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .footer-social-ul{
+        display: flex;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .phonenumber{
+        display: flex;
+        align-items: center;
+        margin: 20px auto;
+        font-size: 10px;
+    }
+    .CallIcon{
+        width: 15px;
+        height: 15px;
+    }
+    .footer-social-ul li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 23%;
+        margin: 10px auto;
+    }
+    .footer-social-ul li button{
+        border: none;
+    }
+    .social-img{
+        width: 20px;
+        height: 15px;
+        margin: auto;
+    }
+    .footer-bottom{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 30px;
+        margin: 15px auto;
+        /* background-color: rgb(122, 96, 96); */
+    }
+    .footer-bottom-left{
+        width: 50%;
+    }
+    .footer-bottom-left p{
+        font-size: 11px;
+        font-weight: 400;
+        color:#000;
+    }
+    .footer-bottom-right{
+        width: 50%;
+    }
+    .footer-bottom-ul{
+        display: flex;
+        width: 100%;
+        
+    }
+    .footer-bottom-ul li{
+        width: 33%;
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .footer-bottom-ul li button{
+        width: 33%;
+        font-size: 15px;
+        font-weight: 600;
+        border: none;
+    }
+}
+/* .....................................................360px responsive --FOOTER--.......... */
+@media all and (max-width: 360px) {
+    .footer{
+        height: auto;
+        background-color:rgba(255, 255, 255, 0.81);
+        
+    }
+    .container.footer{
+        margin:  auto;
+        
+    }
+    .footer-top-left{
+        width: 40%;
+    }
+    .footer-top{
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 1px solid rgba(179, 175, 175,0.6);
+        padding-bottom: 40px;
+    }
+    .footer-top-left{
+        width: 100%;
+        padding: 10px 0;
+        display: block;
+    }
+    .footer-logo{
+        width: 25%; 
+        margin: auto;
+    }
+    .footer-top-left p{
+        line-height: 1rem;
+        font-size: 11px;
+        margin: 5px;
+    }
+    .footer-top-right{
+        width: 100%;
+        margin: auto;
+    }
+    .footer-top-right-ul{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap:wrap ;
+        width: 100%;
+    }   
+    .footer-top-right-ul li{
+        width: 80%;
+    }
+    .li-item-head{
+        text-align: center;
+        font-size: 12px;
+        font-weight: 800;
+        margin: 18px 0;
+    }
+    .items{
+        margin: 15px 0;
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .footer-social-ul{
+        display: flex;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .phonenumber{
+        display: flex;
+        align-items: center;
+        margin: 20px auto;
+        font-size: 10px;
+    }
+    .CallIcon{
+        width: 15px;
+        height: 15px;
+    }
+    .footer-social-ul li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 23%;
+        margin: 10px auto;
+    }
+    .footer-social-ul li button{
+        border: none;
+    }
+    .social-img{
+        width: 20px;
+        height: 15px;
+        margin: auto;
+    }
+    .footer-bottom{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 30px;
+        margin: 15px auto;
+        /* background-color: rgb(122, 96, 96); */
+    }
+    .footer-bottom-left{
+        width: 50%;
+    }
+    .footer-bottom-left p{
+        font-size: 9px;
+        font-weight: 400;
+        color:#000;
+    }
+    .footer-bottom-right{
+        width: 50%;
+    }
+    .footer-bottom-ul{
+        display: flex;
+        width: 100%;
+        
+    }
+    .footer-bottom-ul li{
+        width: 33%;
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .footer-bottom-ul li button{
+        width: 33%;
+        font-size: 15px;
+        font-weight: 600;
+        border: none;
+    }
+}
+/* .....................................................320px responsive --FOOTER--.......... */
+@media all and (max-width: 320px) {
+    .footer{
+        height: auto;
+        background-color:rgba(255, 255, 255, 0.81);
+        
+    }
+    .container.footer{
+        margin:  auto;
+        
+    }
+    .footer-top-left{
+        width: 40%;
+    }
+    .footer-top{
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 1px solid rgba(179, 175, 175,0.6);
+        padding-bottom: 40px;
+    }
+    .footer-top-left{
+        width: 100%;
+        padding: 10px;
+        display: block;
+    }
+    .footer-logo{
+        width: 25%; 
+        margin: auto;
+    }
+    .footer-top-left p{
+        line-height: 1rem;
+        font-size: 11px;
+        margin: 5px;
+    }
+    .footer-top-right{
+        width: 90%;
+        margin: auto;
+    }
+    .footer-top-right-ul{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }   
+    .footer-top-right-ul-li{
+        width: 30%;
+    }
+    .li-item-head{
+        text-align: center;
+        font-size: 11px;
+        font-weight: 700;
+        margin: 18px 0;
+    }
+    .items{
+        margin: 15px 0;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .footer-social-ul{
+        display: flex;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .phonenumber{
+        display: flex;
+        align-items: center;
+        margin: 20px auto;
+        font-size: 10px;
+    }
+    .number {
+        font-size: 10px;
+    }
+    .CallIcon{
+        width: 15px;
+        height: 15px;
+    }
+    .footer-social-ul li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 23%;
+        margin: 10px auto;
+    }
+    .footer-social-ul li button{
+        border: none;
+    }
+    .social-img{
+        width: 20px;
+        height: 15px;
+        margin: auto;
+    }
+    .footer-bottom{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 30px;
+        margin: 15px auto;
+    }
+    .footer-bottom-left{
+        width: 50%;
+    }
+    .footer-bottom-left p{
+        font-size: 9px;
+        font-weight: 400;
+        color:#000;
+    }
+    .footer-bottom-right{
+        width: 50%;
+    }
+    .footer-bottom-ul{
+        display: flex;
+        width: 100%;
+        
+    }
+    .footer-bottom-ul li{
+        width: 33%;
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .footer-bottom-ul li button{
+        width: 33%;
+        font-size: 15px;
+        font-weight: 600;
+        border: none;
     }
 }
