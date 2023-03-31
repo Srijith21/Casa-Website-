@@ -100,80 +100,6 @@ ul li{
     border-radius: 5px;
     padding: 10px 30px;
 }
-
-@media all and (max-width: 640px) {
-    .header-bar{
-        position: fixed;
-        z-index: 2;
-        top: 0;
-        width: 100%;
-        height: 80px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        background-color: #fff;
-        padding: 0 auto;
-    }
-    .logo{
-        display: none;
-    }
-    .navbar ul{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: auto;
-    }
-    .navbar ul li{
-        margin:0 10px ;
-        list-style: none;
-        text-decoration: none;
-        font-size: 12px;
-        font-weight: 300;
-    }
-    .navbar ul li a{
-        color: #000;
-        font-weight: bold;
-        position: relative;
-    }
-    .navbar ul li a::after{
-        content: '';
-        width: 0;
-        height: 3px;
-        background: #000;
-        position: absolute;
-        left: 0;
-        bottom: -6px;
-        transition:0.5s;
-    }
-    .navbar ul li a:hover::after{
-        width: 100%;
-        
-    }
-    
-    .signing{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        font-weight: bold;
-    
-    }
-    .signing a{
-        color: #000;
-        font-size: 12px;
-        font-weight: 600;
-    }
-    .sign-in{
-        margin: auto;
-    }
-    
-    .sign-up{
-        margin: 0 15px;
-        border: #000 1px solid;
-        border-radius: 5px;
-        padding: 10px 30px;
-    }   
-}
 /* ------------------------------------------------------------------768px responsive-----Header-----*/
 @media all and (max-width: 768px) {
     .header-bar{
@@ -572,7 +498,7 @@ ul li{
     font-size: 14px;
 }
 
-/* .......................................................980px responsive........ */
+/* .......................................................980px responsive--Project_spotlight--........ */
 @media all and (max-width: 980px) {
     .Project_spotlight{
         background-color: #FCDA69;
@@ -608,7 +534,7 @@ ul li{
     }
 }
 
-/* .......................................................480px responsive........ */
+/* .......................................................480px responsive--Project_spotlight--........ */
 @media all and (max-width: 480px) {
     .Project_spotlight{
         background-color: #FCDA69;
@@ -646,6 +572,8 @@ ul li{
         font-size: 13px;
     }
 }
+
+
 /* --------------------------------------------------------------------------WEB APPS-- */
 .WebApps{
     margin: 50px auto;
@@ -714,7 +642,7 @@ ul li{
     height: 50px;
 }
 
-/* .....................................................768px responsive..........  */
+/* .....................................................768px responsive --WEB APPS--..........  */
 @media all and (max-width: 768px){
     .WebApps{
         margin: 50px auto;
@@ -782,7 +710,7 @@ ul li{
         height: 50px;
     }
 }
-/* .....................................................640px responsive..........  */
+/* .....................................................640px responsive --WEB APPS--..........  */
 @media all and (max-width: 640px) {
     .WebApps{
         margin: 50px auto;
@@ -847,7 +775,7 @@ ul li{
     }
 }
 
-/* .....................................................480px responsive..........  */
+/* .....................................................480px responsive --WEB APPS--..........  */
 @media all and (max-width: 480px) {
     .WebApps{
         margin: 50px auto;
@@ -918,7 +846,7 @@ ul li{
     }
 }
 
-/* .....................................................360px responsive..........  */
+/* .....................................................360px responsive --WEB APPS--..........  */
 @media all and (max-width: 360px) {
     .WebApps{
         margin: 50px auto;
@@ -1112,6 +1040,7 @@ ul li{
         height: 10%;
     }
 }
+/* .....................................................768px responsive --MOBILE APPS--..........  */
 
 @media all and (max-width: 768px){
     .Mobapp{
@@ -1180,7 +1109,6 @@ ul li{
         height: 50px;
     }
 }
-
 /* .....................................................640px responsive --MOBILE APPS--..........  */
 @media all and (max-width: 640px) {
     .Mobapp{
@@ -1880,7 +1808,7 @@ ul li{
         bottom:100px
     }
     .project-smallHead span{
-        font-size: 60px;
+        font-size: 40px;
         color: #FCDA69;
     }
     .topSec-left h3{

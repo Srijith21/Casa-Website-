@@ -546,8 +546,8 @@ ul li{
 /* <!----------------------------------------------------------------------------------------------------------------------SPOTLIGHT --> */
 
 .spotlight{
-    height: 100vh;
-    margin-top: 80px;
+    height: auto;
+    margin: 80px auto 30px;
     padding: 0 20px;
     background: #FFF;
 }
@@ -563,7 +563,7 @@ ul li{
 }
 .keyword{
     position: absolute;
-    top: -35px;
+    top: 0px;
     left: 10px;
     color: #8873EF;
     font-size: 20px;
@@ -1164,7 +1164,7 @@ h2.Landinghead{
     .spotlight{
         height: auto;
         margin-top: 100px;
-        padding: 0 20px;
+        padding: 0;
     }
     .container.spotlight{
         display: block;
@@ -1396,7 +1396,7 @@ h2.Landinghead{
     .spotlight{
         height: auto;
         margin-top: 100px;
-        padding: 0 20px;
+        padding: 0 ;
     }
     .container.spotlight{
         display: block;
@@ -2608,14 +2608,16 @@ h2.Landinghead{
     .skills-smallhead{
         font-size: 30px;
         margin: 30px auto;
+        text-align: center;
     }
     .skills-left{
         width: 100%;
-        padding: 50px;
+        padding: 30px;
     }
     .skills-list-ul{
         width: 100%;
         margin: auto;
+        padding: 0;
     }
     .skill-items{
         width: 38%;
@@ -3123,7 +3125,7 @@ h2.Landinghead{
     .container.projects{
         display: flex;
         flex-wrap: wrap;
-        padding: 80px 30px;
+        padding: 50px 15px;
         position: relative;
     }
     .project-bar{
