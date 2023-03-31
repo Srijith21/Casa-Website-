@@ -997,8 +997,6 @@ ul li{
 .container.Mobapp{
     padding: 0 50px;
 }
-
-
 .projects-ul{
     display: flex;
     margin: auto;
@@ -1051,7 +1049,7 @@ ul li{
     width: 100%;
     height: 10%;
 }
-/* .....................................................980px responsive..........  */
+/* .....................................................980px responsive --MOBILE APPS--..........  */
 @media all and (max-width: 980px){
     .Mobapp{
         margin: 50px auto;
@@ -1183,7 +1181,7 @@ ul li{
     }
 }
 
-/* .....................................................640px responsive..........  */
+/* .....................................................640px responsive --MOBILE APPS--..........  */
 @media all and (max-width: 640px) {
     .Mobapp{
         margin: 50px auto;
@@ -1248,7 +1246,7 @@ ul li{
     }
 }
 
-/* .....................................................480px responsive..........  */
+/* .....................................................480px responsive --MOBILE APPS--..........  */
 @media all and (max-width: 480px) {
     .Mobapp{
         margin: 50px auto;
@@ -1319,7 +1317,7 @@ ul li{
     }
 }
 
-/* .....................................................360px responsive..........  */
+/* .....................................................360px responsive --MOBILE APPS--..........  */
 @media all and (max-width: 360px) {
     .Mobapp{
         margin: 50px auto;
@@ -1390,3 +1388,401 @@ ul li{
     }
 }
 
+/* ------------------------------------------------------------------------------------------------DashBoard-- */
+.Dashboard{
+    margin: 50px auto;
+}
+.container.Dashboard{
+    padding: 0 50px;
+}
+
+
+.projects-ul{
+    display: flex;
+    margin: auto;
+}
+.project-li{
+    width: 30%;
+    margin:0 auto;
+    position: relative;
+}
+.li-part{
+    width: 100%;
+    border-top: 1px solid #000;
+    margin: 20px auto;
+    padding: 20px 0;
+}
+.project-smallHead{
+    font-size: 60px;
+}
+.service-seal.project{
+    position: absolute;
+    bottom:100px
+}
+.project-smallHead span{
+    font-size: 60px;
+    color: #FCDA69;
+}
+.topSec-left h3{
+    color: #000;
+    width: 70%;
+    font-size: 30px;
+    margin: 10px 0;
+}
+.topSec-left p{
+    color:#000;
+    width: 70%;
+    font-size: 15px;
+    margin: 10px 0;
+}
+.project-li.middle{
+    margin-top:100px;
+}
+.topSec{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-img{
+    display: block;
+    width: 100%;
+    height: 10%;
+}
+
+
+/* .....................................................980px responsive -- Dashboard--..........  */
+@media all and (max-width: 980px) {
+    .Dashboard{
+        margin: 50px auto;
+        height: auto;
+    }
+    .container.Dashboard{
+        padding: 0 50px;
+    }
+    
+    
+    .projects-ul{
+        display: flex;
+        margin: auto;
+    }
+    .project-li{
+        width: 30%;
+        margin:0 auto;
+        position: relative;
+    }
+    .li-part{
+        width: 100%;
+        border-top: 1px solid #000;
+        margin: 20px auto;
+        padding: 20px 0;
+    }
+    .project-smallHead{
+        font-size: 40px;
+    }
+    .service-seal.project{
+        position: absolute;
+        bottom:100px
+    }
+    .project-smallHead span{
+        font-size: 60px;
+        color: #FCDA69;
+    }
+    .topSec-left h3{
+        color: #000;
+        width: 100%;
+        font-size: 30px;
+        margin: 10px 0;
+    }
+    .topSec-left p{
+        color:#000;
+        width: 100%;
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    .project-li.middle{
+        margin-top:100px;
+    }
+    .topSec{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .project-img{
+        display: block;
+        width: 100%;
+        height: 10%;
+    }
+}
+/* .....................................................768px responsive -- Dashboard--..........  */
+@media all and (max-width: 768px){
+    .Dashboard{
+        margin: 50px auto;
+    }
+    .container.Dashboard{
+        padding: 0 50px;
+    }
+    
+    
+    .projects-ul{
+        display: flex;
+        margin: auto;
+    }
+    .project-li{
+        width: 30%;
+        margin:0 auto;
+        position: relative;
+    }
+    .li-part{
+        width: 100%;
+        border-top: 1px solid #000;
+        margin: 20px auto;
+        padding: 20px 0;
+    }
+    .project-smallHead{
+        font-size: 40px;
+    }
+    .service-seal.project{
+        position: absolute;
+        bottom:100px;
+        width: 125px;
+        height: 175px;
+    }
+    .project-smallHead span{
+        font-size: 40px;
+        color: #FCDA69;
+    }
+    .topSec-left h3{
+        color: #000;
+        width: 100%;
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .topSec-left p{
+        color:#000;
+        width: 100%;
+        font-size: 10px;
+        margin: 10px 0;
+    }
+    .project-li.middle{
+        margin-top:100px;
+    }
+    .topSec{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .project-img{
+        display: block;
+        width: 100%;
+        height: 10%;
+    }
+    .arrow-icon{
+        width: 80px;
+        height: 50px;
+    }
+}
+/* .....................................................640px responsive -- Dashboard--..........  */
+@media all and (max-width: 640px) {
+    .Dashboard{
+        margin: 50px auto;
+        height: auto;
+    }
+    .container.Dashboard{
+        padding: 0 50px;
+    }
+    
+    
+    .projects-ul{
+        display: flex;
+        margin: auto;
+    }
+    .project-li{
+        width: 30%;
+        display: block;
+        margin:0 auto;
+        position: relative;
+    }
+    .li-part{
+        width: 100%;
+        border-top: 1px solid #000;
+        margin: 20px auto;
+        padding: 20px 0;
+    }
+    .project-smallHead{
+        font-size: 30px;
+    }
+    .service-seal.project{
+        position: absolute;
+        bottom:100px
+    }
+    .project-smallHead span{
+        font-size: 30px;
+        color: #FCDA69;
+    }
+    .topSec-left h3{
+        color: #000;
+        width: 100%;
+        font-size: 17px;
+        margin: 10px 0;
+    }
+    .topSec-left p{
+        color:#000;
+        width: 100%;
+        font-size: 9px;
+        margin: 10px 0;
+    }
+    .project-li.middle{
+        margin-top:100px;
+    }
+    .topSec{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .project-img{
+        display: block;
+        width: 100%;
+        height: 10%;
+    }
+}
+/* .....................................................480px responsive -- Dashboard--..........  */
+@media all and (max-width: 480px) {
+    .Dashboard{
+        margin: 50px auto;
+    }
+    .container.Dashboard{
+        padding: 0 10px;
+    }
+    
+    .projects-ul{
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        padding: 0;
+    }
+    .project-li{
+        width: 30%;
+        display: block;
+        margin:0 auto;
+        position: relative;
+    }
+    .li-part{
+        width: 100%;
+        border-top: 1px solid #000;
+        margin: 20px auto;
+        padding: 20px 0;
+    }
+    .project-smallHead{
+        font-size: 22px;
+    }
+    .service-seal.project{
+        position: absolute;
+        bottom: 100px;
+        width: 70px;
+        height: 70px;
+    }
+    .project-smallHead span{
+        font-size: 22px;
+        color: #FCDA69;
+    }
+    .topSec-left h3{
+        color: #000;
+        width: 100%;
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    .topSec-left p{
+        color:#000;
+        width: 100%;
+        font-size: 8px;
+        margin: 10px 0;
+    }
+    .project-li.middle{
+        margin-top:100px;
+    }
+    .topSec{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .project-img{
+        display: block;
+        width: 100%;
+        height: 10%;
+    }
+    .arrow-icon{
+        width: 30px;
+        height: 35px;
+    }
+}
+
+/* .....................................................360px responsive -- Dashboard--..........  */
+@media all and (max-width: 360px) {
+    .Dashboard{
+        margin: 50px auto;
+    }
+    .container.Dashboard{
+        padding: 0 10px;
+    }
+    
+    .projects-ul{
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        padding: 0;
+    }
+    .project-li{
+        width: 30%;
+        display: block;
+        margin:0 auto;
+        position: relative;
+    }
+    .li-part{
+        width: 100%;
+        border-top: 1px solid #000;
+        margin: 20px auto;
+        padding: 20px 0;
+    }
+    .project-smallHead{
+        font-size: 17px;
+    }
+    .service-seal.project{
+        position: absolute;
+        bottom: 100px;
+        width: 70px;
+        height: 70px;
+    }
+    .project-smallHead span{
+        font-size: 17px;
+        color: #FCDA69;
+    }
+    .topSec-left h3{
+        color: #000;
+        width: 100%;
+        font-size: 11px;
+        margin: 7px 0;
+    }
+    .topSec-left p{
+        color:#000;
+        width: 100%;
+        font-size: 6px;
+        margin: 10px 0;
+    }
+    .project-li.middle{
+        margin-top:100px;
+    }
+    .topSec{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .project-img{
+        display: block;
+        width: 100%;
+        height: 10%;
+    }
+    .arrow-icon{
+        width: 25px;
+        height: 30px;
+    }
+}
